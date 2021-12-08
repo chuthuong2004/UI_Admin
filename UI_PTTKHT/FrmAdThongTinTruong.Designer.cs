@@ -48,12 +48,12 @@ namespace UI_PTTKHT
             this.lblTietHoc = new System.Windows.Forms.Label();
             this.lblLichNgay = new System.Windows.Forms.Label();
             this.lblLichTuan = new System.Windows.Forms.Label();
+            this.lblQLHT = new System.Windows.Forms.Label();
+            this.lblTongKetDiem = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -65,19 +65,19 @@ namespace UI_PTTKHT
             this.label8 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.lsbAdmin = new System.Windows.Forms.ListBox();
-            this.lblQLHT = new System.Windows.Forms.Label();
-            this.lblTongKetDiem = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
@@ -310,6 +310,32 @@ namespace UI_PTTKHT
             this.lblLichTuan.Visible = false;
             this.lblLichTuan.Click += new System.EventHandler(this.lblLichTuan_Click);
             // 
+            // lblQLHT
+            // 
+            this.flowLayoutPanel1.SetFlowBreak(this.lblQLHT, true);
+            this.lblQLHT.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblQLHT.ImageKey = "(none)";
+            this.lblQLHT.Location = new System.Drawing.Point(3, 468);
+            this.lblQLHT.Name = "lblQLHT";
+            this.lblQLHT.Size = new System.Drawing.Size(153, 26);
+            this.lblQLHT.TabIndex = 14;
+            this.lblQLHT.Text = "Quản lý học tập";
+            this.lblQLHT.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblQLHT.Click += new System.EventHandler(this.lblQLHT_Click);
+            // 
+            // lblTongKetDiem
+            // 
+            this.lblTongKetDiem.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblTongKetDiem.ImageKey = "(none)";
+            this.lblTongKetDiem.Location = new System.Drawing.Point(3, 494);
+            this.lblTongKetDiem.Name = "lblTongKetDiem";
+            this.lblTongKetDiem.Size = new System.Drawing.Size(153, 26);
+            this.lblTongKetDiem.TabIndex = 15;
+            this.lblTongKetDiem.Text = "Tổng kết điểm";
+            this.lblTongKetDiem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTongKetDiem.Visible = false;
+            this.lblTongKetDiem.Click += new System.EventHandler(this.lblTongKetDiem_Click);
+            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ControlLight;
@@ -356,28 +382,6 @@ namespace UI_PTTKHT
             this.panel1.Size = new System.Drawing.Size(1077, 51);
             this.panel1.TabIndex = 6;
             this.panel1.Click += new System.EventHandler(this.panel1_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::UI_PTTKHT.Properties.Resources.logo1;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(60, 51);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.pictureBox1.Image = global::UI_PTTKHT.Properties.Resources.login;
-            this.pictureBox1.Location = new System.Drawing.Point(1037, 11);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(28, 34);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // panel3
             // 
@@ -488,9 +492,9 @@ namespace UI_PTTKHT
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(154, 59);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(70, 16);
+            this.label4.Size = new System.Drawing.Size(75, 16);
             this.label4.TabIndex = 0;
-            this.label4.Text = "Mã trường:";
+            this.label4.Text = "Tên trường:";
             // 
             // label3
             // 
@@ -500,16 +504,6 @@ namespace UI_PTTKHT
             this.label3.Size = new System.Drawing.Size(70, 16);
             this.label3.TabIndex = 0;
             this.label3.Text = "Mã trường:";
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::UI_PTTKHT.Properties.Resources.logo1;
-            this.pictureBox3.Location = new System.Drawing.Point(10, 104);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(348, 348);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 8;
-            this.pictureBox3.TabStop = false;
             // 
             // label2
             // 
@@ -538,31 +532,37 @@ namespace UI_PTTKHT
             this.lsbAdmin.Visible = false;
             this.lsbAdmin.SelectedIndexChanged += new System.EventHandler(this.lsbAdmin_SelectedIndexChanged);
             // 
-            // lblQLHT
+            // pictureBox3
             // 
-            this.flowLayoutPanel1.SetFlowBreak(this.lblQLHT, true);
-            this.lblQLHT.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.lblQLHT.ImageKey = "(none)";
-            this.lblQLHT.Location = new System.Drawing.Point(3, 468);
-            this.lblQLHT.Name = "lblQLHT";
-            this.lblQLHT.Size = new System.Drawing.Size(153, 26);
-            this.lblQLHT.TabIndex = 14;
-            this.lblQLHT.Text = "Quản lý học tập";
-            this.lblQLHT.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblQLHT.Click += new System.EventHandler(this.lblQLHT_Click);
+            this.pictureBox3.Image = global::UI_PTTKHT.Properties.Resources.logo1;
+            this.pictureBox3.Location = new System.Drawing.Point(10, 104);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(348, 348);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 8;
+            this.pictureBox3.TabStop = false;
             // 
-            // lblTongKetDiem
+            // pictureBox2
             // 
-            this.lblTongKetDiem.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.lblTongKetDiem.ImageKey = "(none)";
-            this.lblTongKetDiem.Location = new System.Drawing.Point(3, 494);
-            this.lblTongKetDiem.Name = "lblTongKetDiem";
-            this.lblTongKetDiem.Size = new System.Drawing.Size(153, 26);
-            this.lblTongKetDiem.TabIndex = 15;
-            this.lblTongKetDiem.Text = "Tổng kết điểm";
-            this.lblTongKetDiem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTongKetDiem.Visible = false;
-            this.lblTongKetDiem.Click += new System.EventHandler(this.lblTongKetDiem_Click);
+            this.pictureBox2.Image = global::UI_PTTKHT.Properties.Resources.logo1;
+            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(60, 51);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureBox1.Image = global::UI_PTTKHT.Properties.Resources.login;
+            this.pictureBox1.Location = new System.Drawing.Point(1037, 11);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(28, 34);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // FrmAdThongTinTruong
             // 
@@ -581,13 +581,13 @@ namespace UI_PTTKHT
             this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

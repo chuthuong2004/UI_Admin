@@ -96,6 +96,7 @@ namespace UI_PTTKHT
             this.button1.Text = "<  Tuần này";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -444,7 +445,7 @@ namespace UI_PTTKHT
             this.lsbAdmin.Location = new System.Drawing.Point(957, 50);
             this.lsbAdmin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lsbAdmin.Name = "lsbAdmin";
-            this.lsbAdmin.Size = new System.Drawing.Size(120, 52);
+            this.lsbAdmin.Size = new System.Drawing.Size(120, 68);
             this.lsbAdmin.TabIndex = 6;
             this.lsbAdmin.Visible = false;
             this.lsbAdmin.SelectedIndexChanged += new System.EventHandler(this.lsbAdmin_SelectedIndexChanged);
@@ -499,6 +500,7 @@ namespace UI_PTTKHT
             this.radioButton2.TabIndex = 11;
             this.radioButton2.Text = "Lịch thi";
             this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.Click += new System.EventHandler(this.radioButton2_Click);
             // 
             // radioButton1
             // 
@@ -525,6 +527,7 @@ namespace UI_PTTKHT
             this.button3.TabIndex = 10;
             this.button3.Text = "Tuần sau >";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // dateTimePicker1
             // 

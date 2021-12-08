@@ -4,44 +4,55 @@ using System.Windows.Forms;
 
 namespace UI_PTTKHT
 {
-    public partial class FrmHSTKB : Form
+    public partial class FrmGVThongTinCaNhan : Form
     {
-        public FrmHSTKB()
+        public FrmGVThongTinCaNhan()
         {
             InitializeComponent();
         }
-        private void ShowForm(Form frm)
+
+        private void ShowForm(Form form)
         {
             Thread thread = new Thread(new ThreadStart(() =>
             {
-                frm.ShowDialog();
+                form.ShowDialog();
             }));
             thread.Start();
             Thread.Sleep(10);
             this.Close();
         }
-        private void label12_Click(object sender, EventArgs e)
+
+        private void label13_Click(object sender, EventArgs e)
         {
-            FrmHSTrangChu frm = new FrmHSTrangChu();
+            FrmGVTrangChu frm = new FrmGVTrangChu();
             ShowForm(frm);
         }
 
         private void label8_Click(object sender, EventArgs e)
         {
-            FrmHSThongBao frm = new FrmHSThongBao();
+            FrmGVThongBao frm = new FrmGVThongBao();
             ShowForm(frm);
         }
 
-        private void label13_Click(object sender, EventArgs e)
+        private void label12_Click(object sender, EventArgs e)
         {
-            FrmHSTTCaNhan frm = new FrmHSTTCaNhan();
+            FrmGVLichDay frm = new FrmGVLichDay();
             ShowForm(frm);
+        }
+
+        private void label14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label34_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void label15_Click(object sender, EventArgs e)
         {
-            FrmHSXemDiem frm = new FrmHSXemDiem();
-            ShowForm(frm);
+
         }
 
         private void label7_Click(object sender, EventArgs e)
@@ -90,19 +101,8 @@ namespace UI_PTTKHT
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Xin lỗi hiện tại chỉ tải được trang này !");
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Xin lỗi hiện tại chỉ tải được trang này !");
-        }
-
-        private void radioButton2_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Xin lỗi hiện tại chỉ tải được trang này !");
-            radioButton2.Checked = false;
-            radioButton1.Checked = true;
+            FrmGVChinhSuaThongTinGiaoVien frm = new FrmGVChinhSuaThongTinGiaoVien();
+            ShowForm(frm);
         }
     }
 }

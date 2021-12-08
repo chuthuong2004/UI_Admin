@@ -169,5 +169,11 @@ namespace UI_PTTKHT
             lsbAdmin.Visible = false;
 
         }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            FrmHSThongBao frm = new FrmHSThongBao();
+            ShowForm(frm);
+        }
     }
 }

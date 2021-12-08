@@ -94,5 +94,23 @@ namespace UI_PTTKHT
         {
             lsbAdmin.Visible = false;
         }
+
+        private void radioButton2_Click(object sender, EventArgs e)
+        {
+            radioButton2.Checked = false;
+            MessageBox.Show("Xin lỗi hiện tại không thể tải trang này !");
+            radioButton3.Checked = true;
+            radioButton2.Checked = false;
+            radioButton1.Checked = false;
+        }
+
+        private void radioButton1_Click(object sender, EventArgs e)
+        {
+            radioButton1.Checked = false;
+            MessageBox.Show("Xin lỗi hiện tại không thể tải trang này !");
+            radioButton3.Checked = true;
+            radioButton2.Checked = false;
+            radioButton1.Checked = false;
+        }
     }
 }

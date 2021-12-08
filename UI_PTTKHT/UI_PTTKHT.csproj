@@ -142,6 +142,30 @@
     <Compile Include="FrmDangNhap.Designer.cs">
       <DependentUpon>FrmDangNhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmGVChinhSuaThongTinGiaoVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGVChinhSuaThongTinGiaoVien.Designer.cs">
+      <DependentUpon>FrmGVChinhSuaThongTinGiaoVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGVLichDay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGVLichDay.Designer.cs">
+      <DependentUpon>FrmGVLichDay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGVThongBao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGVThongBao.Designer.cs">
+      <DependentUpon>FrmGVThongBao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGVThongTinCaNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGVThongTinCaNhan.Designer.cs">
+      <DependentUpon>FrmGVThongTinCaNhan.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmGVTrangChu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -258,6 +282,18 @@
     <EmbeddedResource Include="FrmDangNhap.resx">
       <DependentUpon>FrmDangNhap.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmGVChinhSuaThongTinGiaoVien.resx">
+      <DependentUpon>FrmGVChinhSuaThongTinGiaoVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGVLichDay.resx">
+      <DependentUpon>FrmGVLichDay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGVThongBao.resx">
+      <DependentUpon>FrmGVThongBao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGVThongTinCaNhan.resx">
+      <DependentUpon>FrmGVThongTinCaNhan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmGVTrangChu.resx">
       <DependentUpon>FrmGVTrangChu.cs</DependentUpon>
     </EmbeddedResource>
@@ -364,6 +400,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avatar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avt1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

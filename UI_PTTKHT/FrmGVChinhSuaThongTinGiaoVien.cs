@@ -4,48 +4,37 @@ using System.Windows.Forms;
 
 namespace UI_PTTKHT
 {
-    public partial class FrmHSTTCaNhan : Form
+    public partial class FrmGVChinhSuaThongTinGiaoVien : Form
     {
-        public FrmHSTTCaNhan()
+        public FrmGVChinhSuaThongTinGiaoVien()
         {
             InitializeComponent();
         }
-        private void ShowForm(Form frm)
+
+        private void ShowForm(Form form)
         {
             Thread thread = new Thread(new ThreadStart(() =>
             {
-                frm.ShowDialog();
+                form.ShowDialog();  
             }));
             thread.Start();
             Thread.Sleep(10);
             this.Close();
         }
-
-        private void label32_Click(object sender, EventArgs e)
+        private void btnQuayLai_Click(object sender, EventArgs e)
         {
-            FrmHSTrangChu frm = new FrmHSTrangChu();
-            ShowForm(frm);
+            FrmGVThongTinCaNhan frmGVThongTinCaNhan = new FrmGVThongTinCaNhan();
+            ShowForm(frmGVThongTinCaNhan);
         }
 
-        private void label33_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            FrmHSThongBao  frm = new FrmHSThongBao();
-            ShowForm(frm);
+            MessageBox.Show("Chức năng chỉnh sửa đang bảo trì !");
+            FrmGVThongTinCaNhan frmGVThongTinCaNhan = new FrmGVThongTinCaNhan();
+            ShowForm(frmGVThongTinCaNhan);
         }
 
-        private void label35_Click(object sender, EventArgs e)
-        {
-            FrmHSTKB frm = new FrmHSTKB();
-            ShowForm(frm);
-        }
-
-        private void label36_Click(object sender, EventArgs e)
-        {
-            FrmHSXemDiem frm = new FrmHSXemDiem();
-            ShowForm(frm);
-        }
-
-        private void label7_Click(object sender, EventArgs e)
+        private void label11_Click(object sender, EventArgs e)
         {
             lsbAdmin.Visible = true;
         }
@@ -53,6 +42,7 @@ namespace UI_PTTKHT
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             lsbAdmin.Visible = true;
+
         }
 
         private void lsbAdmin_SelectedIndexChanged(object sender, EventArgs e)
@@ -79,15 +69,14 @@ namespace UI_PTTKHT
             lsbAdmin.Visible = false;
         }
 
-        private void flowLayoutPanel1_Click(object sender, EventArgs e)
+        private void panel2_Click(object sender, EventArgs e)
         {
             lsbAdmin.Visible = false;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void panel5_Click(object sender, EventArgs e)
         {
-            FrmHSChinhSua frm = new FrmHSChinhSua();
-            ShowForm(frm);
+            lsbAdmin.Visible = false;
         }
     }
 }

@@ -4,44 +4,55 @@ using System.Windows.Forms;
 
 namespace UI_PTTKHT
 {
-    public partial class FrmHSTKB : Form
+    public partial class FrmGVLichDay : Form
     {
-        public FrmHSTKB()
+        public FrmGVLichDay()
         {
             InitializeComponent();
         }
-        private void ShowForm(Form frm)
+
+        private void ShowForm(Form form)
         {
             Thread thread = new Thread(new ThreadStart(() =>
             {
-                frm.ShowDialog();
+                form.ShowDialog();
             }));
             thread.Start();
             Thread.Sleep(10);
             this.Close();
         }
-        private void label12_Click(object sender, EventArgs e)
+
+        private void label13_Click(object sender, EventArgs e)
         {
-            FrmHSTrangChu frm = new FrmHSTrangChu();
+            FrmGVTrangChu frm = new FrmGVTrangChu();
             ShowForm(frm);
         }
 
         private void label8_Click(object sender, EventArgs e)
         {
-            FrmHSThongBao frm = new FrmHSThongBao();
+            FrmGVThongBao frm = new FrmGVThongBao();
             ShowForm(frm);
         }
 
-        private void label13_Click(object sender, EventArgs e)
+        private void label10_Click(object sender, EventArgs e)
         {
-            FrmHSTTCaNhan frm = new FrmHSTTCaNhan();
+            FrmGVThongTinCaNhan frm = new FrmGVThongTinCaNhan();
             ShowForm(frm);
+        }
+
+        private void label14_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void label15_Click(object sender, EventArgs e)
         {
-            FrmHSXemDiem frm = new FrmHSXemDiem();
-            ShowForm(frm);
+
+        }
+
+        private void label46_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void label7_Click(object sender, EventArgs e)
@@ -78,7 +89,7 @@ namespace UI_PTTKHT
             lsbAdmin.Visible = false;
         }
 
-        private void panel3_Click(object sender, EventArgs e)
+        private void panel4_Click(object sender, EventArgs e)
         {
             lsbAdmin.Visible = false;
         }
@@ -88,21 +99,20 @@ namespace UI_PTTKHT
             lsbAdmin.Visible = false;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnThemGiaoVien_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Xin lỗi hiện tại chỉ tải được trang này !");
+            MessageBox.Show("Chức năng thêm lịch dạy đang bảo trì !");
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Xin lỗi hiện tại chỉ tải được trang này !");
+            MessageBox.Show("Xin lỗi hiện tại chỉ tải được tuần này !");
         }
 
-        private void radioButton2_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Xin lỗi hiện tại chỉ tải được trang này !");
-            radioButton2.Checked = false;
-            radioButton1.Checked = true;
+            MessageBox.Show("Xin lỗi hiện tại chỉ tải được tuần này !");
+
         }
     }
 }
