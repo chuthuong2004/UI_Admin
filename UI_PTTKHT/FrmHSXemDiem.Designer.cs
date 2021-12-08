@@ -75,7 +75,9 @@ namespace UI_PTTKHT
             this.label61 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label68 = new System.Windows.Forms.Label();
             this.label60 = new System.Windows.Forms.Label();
@@ -144,16 +146,14 @@ namespace UI_PTTKHT
             this.label106 = new System.Windows.Forms.Label();
             this.label107 = new System.Windows.Forms.Label();
             this.label108 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label14
@@ -660,7 +660,7 @@ namespace UI_PTTKHT
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Green;
-            this.label2.Location = new System.Drawing.Point(3, 2);
+            this.label2.Location = new System.Drawing.Point(8, 16);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(164, 25);
             this.label2.TabIndex = 10;
@@ -679,6 +679,18 @@ namespace UI_PTTKHT
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1077, 50);
             this.panel1.TabIndex = 16;
+            this.panel1.Click += new System.EventHandler(this.panel1_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::UI_PTTKHT.Properties.Resources.logo1;
+            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(60, 50);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
             // 
             // label7
             // 
@@ -690,6 +702,20 @@ namespace UI_PTTKHT
             this.label7.TabIndex = 2;
             this.label7.Text = "student";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label7.Click += new System.EventHandler(this.label7_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.Image = global::UI_PTTKHT.Properties.Resources.login;
+            this.pictureBox1.Location = new System.Drawing.Point(1037, 7);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(28, 34);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label1
             // 
@@ -1171,6 +1197,7 @@ namespace UI_PTTKHT
             this.label32.Size = new System.Drawing.Size(84, 51);
             this.label32.TabIndex = 27;
             this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label32.Click += new System.EventHandler(this.panel3_Click_1);
             // 
             // label31
             // 
@@ -1182,6 +1209,7 @@ namespace UI_PTTKHT
             this.label31.Size = new System.Drawing.Size(84, 51);
             this.label31.TabIndex = 26;
             this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label31.Click += new System.EventHandler(this.panel3_Click_1);
             // 
             // label30
             // 
@@ -1193,6 +1221,7 @@ namespace UI_PTTKHT
             this.label30.Size = new System.Drawing.Size(84, 51);
             this.label30.TabIndex = 25;
             this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label30.Click += new System.EventHandler(this.panel3_Click_1);
             // 
             // label29
             // 
@@ -1284,6 +1313,7 @@ namespace UI_PTTKHT
             this.label22.Size = new System.Drawing.Size(84, 51);
             this.label22.TabIndex = 17;
             this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label22.Click += new System.EventHandler(this.panel3_Click_1);
             // 
             // label21
             // 
@@ -1295,6 +1325,7 @@ namespace UI_PTTKHT
             this.label21.Size = new System.Drawing.Size(84, 51);
             this.label21.TabIndex = 16;
             this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label21.Click += new System.EventHandler(this.panel3_Click_1);
             // 
             // label20
             // 
@@ -1306,6 +1337,7 @@ namespace UI_PTTKHT
             this.label20.Size = new System.Drawing.Size(84, 51);
             this.label20.TabIndex = 15;
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label20.Click += new System.EventHandler(this.panel3_Click_1);
             // 
             // label19
             // 
@@ -1504,6 +1536,7 @@ namespace UI_PTTKHT
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(923, 593);
             this.panel3.TabIndex = 17;
+            this.panel3.Click += new System.EventHandler(this.panel3_Click_1);
             // 
             // lsbAdmin
             // 
@@ -1520,6 +1553,7 @@ namespace UI_PTTKHT
             this.lsbAdmin.Size = new System.Drawing.Size(120, 52);
             this.lsbAdmin.TabIndex = 6;
             this.lsbAdmin.Visible = false;
+            this.lsbAdmin.SelectedIndexChanged += new System.EventHandler(this.lsbAdmin_SelectedIndexChanged);
             // 
             // panel2
             // 
@@ -1553,6 +1587,7 @@ namespace UI_PTTKHT
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(159, 592);
             this.flowLayoutPanel1.TabIndex = 16;
+            this.flowLayoutPanel1.Click += new System.EventHandler(this.flowLayoutPanel1_Click);
             // 
             // label3
             // 
@@ -1565,6 +1600,7 @@ namespace UI_PTTKHT
             this.label3.TabIndex = 12;
             this.label3.Text = "Trang chủ";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label105
             // 
@@ -1577,6 +1613,7 @@ namespace UI_PTTKHT
             this.label105.TabIndex = 13;
             this.label105.Text = "Thông báo";
             this.label105.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label105.Click += new System.EventHandler(this.label105_Click);
             // 
             // label106
             // 
@@ -1589,6 +1626,7 @@ namespace UI_PTTKHT
             this.label106.TabIndex = 14;
             this.label106.Text = "Thông tin cá nhân";
             this.label106.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label106.Click += new System.EventHandler(this.label106_Click);
             // 
             // label107
             // 
@@ -1601,6 +1639,7 @@ namespace UI_PTTKHT
             this.label107.TabIndex = 15;
             this.label107.Text = "Thời khóa biểu";
             this.label107.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label107.Click += new System.EventHandler(this.label107_Click);
             // 
             // label108
             // 
@@ -1613,29 +1652,6 @@ namespace UI_PTTKHT
             this.label108.TabIndex = 16;
             this.label108.Text = "Kết quả học tập";
             this.label108.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::UI_PTTKHT.Properties.Resources.logo1;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(60, 50);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = global::UI_PTTKHT.Properties.Resources.login;
-            this.pictureBox1.Location = new System.Drawing.Point(1037, 7);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(28, 34);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
             // 
             // FrmHSXemDiem
             // 
@@ -1652,6 +1668,8 @@ namespace UI_PTTKHT
             this.Text = "Kết quả học tập";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.panel3.ResumeLayout(false);
@@ -1659,8 +1677,6 @@ namespace UI_PTTKHT
             this.panel2.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.flowLayoutPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

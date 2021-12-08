@@ -146,3 +146,7 @@ D:\Git-Bitbucket\UI_Admin\UI_PTTKHT\obj\Debug\UI_PTTKHT.csproj.GenerateResource.
 D:\Git-Bitbucket\UI_Admin\UI_PTTKHT\obj\Debug\UI_PTTKHT.csproj.CoreCompileInputs.cache
 D:\Git-Bitbucket\UI_Admin\UI_PTTKHT\obj\Debug\UI_PTTKHT.exe
 D:\Git-Bitbucket\UI_Admin\UI_PTTKHT\obj\Debug\UI_PTTKHT.pdb
+E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmHSThongBao.resources
+E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmHSTKB.resources
+E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmHSTTCaNhan.resources
+E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmHSXemDiem.resources

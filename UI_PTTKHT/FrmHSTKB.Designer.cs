@@ -31,7 +31,6 @@ namespace UI_PTTKHT
         {
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.listBox12 = new System.Windows.Forms.ListBox();
             this.listBox11 = new System.Windows.Forms.ListBox();
             this.listBox9 = new System.Windows.Forms.ListBox();
@@ -58,26 +57,30 @@ namespace UI_PTTKHT
             this.label11 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.button3 = new System.Windows.Forms.Button();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.flowLayoutPanel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.flowLayoutPanel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
@@ -85,7 +88,7 @@ namespace UI_PTTKHT
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(419, 14);
+            this.button1.Location = new System.Drawing.Point(582, 49);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(105, 31);
@@ -98,23 +101,13 @@ namespace UI_PTTKHT
             // 
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(529, 14);
+            this.button2.Location = new System.Drawing.Point(692, 49);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(105, 31);
             this.button2.TabIndex = 7;
-            this.button2.Text = "Tuần sau >";
+            this.button2.Text = "Hiện tại";
             this.button2.UseVisualStyleBackColor = true;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(216, 18);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(199, 22);
-            this.dateTimePicker1.TabIndex = 5;
             // 
             // listBox12
             // 
@@ -454,6 +447,7 @@ namespace UI_PTTKHT
             this.lsbAdmin.Size = new System.Drawing.Size(120, 52);
             this.lsbAdmin.TabIndex = 6;
             this.lsbAdmin.Visible = false;
+            this.lsbAdmin.SelectedIndexChanged += new System.EventHandler(this.lsbAdmin_SelectedIndexChanged);
             // 
             // label11
             // 
@@ -478,6 +472,9 @@ namespace UI_PTTKHT
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.radioButton2);
+            this.panel3.Controls.Add(this.radioButton1);
+            this.panel3.Controls.Add(this.button3);
             this.panel3.Controls.Add(this.label11);
             this.panel3.Controls.Add(this.panel4);
             this.panel3.Controls.Add(this.button1);
@@ -489,6 +486,56 @@ namespace UI_PTTKHT
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(915, 596);
             this.panel3.TabIndex = 11;
+            this.panel3.Click += new System.EventHandler(this.panel3_Click);
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton2.Location = new System.Drawing.Point(213, 56);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(74, 20);
+            this.radioButton2.TabIndex = 11;
+            this.radioButton2.Text = "Lịch thi";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Checked = true;
+            this.radioButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton1.Location = new System.Drawing.Point(124, 56);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(83, 20);
+            this.radioButton1.TabIndex = 11;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Lịch học";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(803, 49);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(105, 31);
+            this.button3.TabIndex = 10;
+            this.button3.Text = "Tuần sau >";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker1.Location = new System.Drawing.Point(296, 53);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(282, 22);
+            this.dateTimePicker1.TabIndex = 5;
+            this.dateTimePicker1.Value = new System.DateTime(2021, 12, 8, 0, 0, 0, 0);
             // 
             // panel1
             // 
@@ -503,6 +550,18 @@ namespace UI_PTTKHT
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1077, 50);
             this.panel1.TabIndex = 9;
+            this.panel1.Click += new System.EventHandler(this.panel1_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::UI_PTTKHT.Properties.Resources.logo1;
+            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(60, 50);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
             // 
             // label7
             // 
@@ -514,6 +573,20 @@ namespace UI_PTTKHT
             this.label7.TabIndex = 2;
             this.label7.Text = "student";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label7.Click += new System.EventHandler(this.label7_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.Image = global::UI_PTTKHT.Properties.Resources.login;
+            this.pictureBox1.Location = new System.Drawing.Point(1045, 9);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(28, 34);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label1
             // 
@@ -538,40 +611,7 @@ namespace UI_PTTKHT
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(163, 590);
             this.flowLayoutPanel1.TabIndex = 0;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.panel2.Controls.Add(this.flowLayoutPanel1);
-            this.panel2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel2.Location = new System.Drawing.Point(0, 50);
-            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(159, 599);
-            this.panel2.TabIndex = 10;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::UI_PTTKHT.Properties.Resources.logo1;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(60, 50);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = global::UI_PTTKHT.Properties.Resources.login;
-            this.pictureBox1.Location = new System.Drawing.Point(1045, 9);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(28, 34);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.flowLayoutPanel1.Click += new System.EventHandler(this.flowLayoutPanel1_Click);
             // 
             // label12
             // 
@@ -583,6 +623,7 @@ namespace UI_PTTKHT
             this.label12.TabIndex = 9;
             this.label12.Text = "Trang chủ";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // label8
             // 
@@ -594,6 +635,7 @@ namespace UI_PTTKHT
             this.label8.TabIndex = 10;
             this.label8.Text = "Thông báo";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // label13
             // 
@@ -605,6 +647,7 @@ namespace UI_PTTKHT
             this.label13.TabIndex = 11;
             this.label13.Text = "Thông tin cá nhân";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // label14
             // 
@@ -627,6 +670,18 @@ namespace UI_PTTKHT
             this.label15.TabIndex = 13;
             this.label15.Text = "Kết quả học tập";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label15.Click += new System.EventHandler(this.label15_Click);
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.panel2.Controls.Add(this.flowLayoutPanel1);
+            this.panel2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panel2.Location = new System.Drawing.Point(0, 50);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(159, 599);
+            this.panel2.TabIndex = 10;
             // 
             // FrmHSTKB
             // 
@@ -648,10 +703,10 @@ namespace UI_PTTKHT
             this.panel3.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.flowLayoutPanel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.flowLayoutPanel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -660,7 +715,6 @@ namespace UI_PTTKHT
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.ListBox listBox12;
         private System.Windows.Forms.ListBox listBox11;
         private System.Windows.Forms.ListBox listBox9;
@@ -699,5 +753,9 @@ namespace UI_PTTKHT
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton1;
     }
 }
