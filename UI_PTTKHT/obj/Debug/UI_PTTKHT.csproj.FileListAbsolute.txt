@@ -1,0 +1,142 @@
+E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\bin\Debug\UI_PTTKHT.exe.config
+E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\bin\Debug\UI_PTTKHT.exe
+E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\bin\Debug\UI_PTTKHT.pdb
+E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.csproj.AssemblyReference.cache
+E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.Properties.Resources.resources
+E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.csproj.GenerateResource.cache
+E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.csproj.CoreCompileInputs.cache
+E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.exe
+E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.pdb
+E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmDangNhap.resources
+E:\New folder\UI_PTTKHT\bin\Debug\UI_PTTKHT.exe.config
+E:\New folder\UI_PTTKHT\bin\Debug\UI_PTTKHT.exe
+E:\New folder\UI_PTTKHT\bin\Debug\UI_PTTKHT.pdb
+E:\New folder\UI_PTTKHT\obj\Debug\UI_PTTKHT.csproj.AssemblyReference.cache
+E:\New folder\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmDangNhap.resources
+E:\New folder\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmGiaoVien.resources
+E:\New folder\UI_PTTKHT\obj\Debug\UI_PTTKHT.Properties.Resources.resources
+E:\New folder\UI_PTTKHT\obj\Debug\UI_PTTKHT.csproj.GenerateResource.cache
+E:\New folder\UI_PTTKHT\obj\Debug\UI_PTTKHT.csproj.CoreCompileInputs.cache
+E:\New folder\UI_PTTKHT\obj\Debug\UI_PTTKHT.exe
+E:\New folder\UI_PTTKHT\obj\Debug\UI_PTTKHT.pdb
+D:\Document\2021-2022\HKI\PhanTichThietKeGiaiThuat\PTTKHT\UI_PTTKHT\bin\Debug\UI_PTTKHT.exe.config
+D:\Document\2021-2022\HKI\PhanTichThietKeGiaiThuat\PTTKHT\UI_PTTKHT\bin\Debug\UI_PTTKHT.exe
+D:\Document\2021-2022\HKI\PhanTichThietKeGiaiThuat\PTTKHT\UI_PTTKHT\bin\Debug\UI_PTTKHT.pdb
+D:\Document\2021-2022\HKI\PhanTichThietKeGiaiThuat\PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.csproj.AssemblyReference.cache
+D:\Document\2021-2022\HKI\PhanTichThietKeGiaiThuat\PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.csproj.SuggestedBindingRedirects.cache
+D:\Document\2021-2022\HKI\PhanTichThietKeGiaiThuat\PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmDangNhap.resources
+D:\Document\2021-2022\HKI\PhanTichThietKeGiaiThuat\PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmGiaoVien.resources
+D:\Document\2021-2022\HKI\PhanTichThietKeGiaiThuat\PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.Properties.Resources.resources
+D:\Document\2021-2022\HKI\PhanTichThietKeGiaiThuat\PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.csproj.GenerateResource.cache
+D:\Document\2021-2022\HKI\PhanTichThietKeGiaiThuat\PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.csproj.CoreCompileInputs.cache
+D:\Document\2021-2022\HKI\PhanTichThietKeGiaiThuat\PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.exe
+D:\Document\2021-2022\HKI\PhanTichThietKeGiaiThuat\PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.pdb
+E:\PTTKHT\PTTKHT\UI_PTTKHT\bin\Debug\UI_PTTKHT.exe.config
+E:\PTTKHT\PTTKHT\UI_PTTKHT\bin\Debug\UI_PTTKHT.exe
+E:\PTTKHT\PTTKHT\UI_PTTKHT\bin\Debug\UI_PTTKHT.pdb
+E:\PTTKHT\PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.csproj.AssemblyReference.cache
+E:\PTTKHT\PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmDangNhap.resources
+E:\PTTKHT\PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmDangNhapGiaoVien.resources
+E:\PTTKHT\PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmDangNhapHocSinh.resources
+E:\PTTKHT\PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmGiaoVien.resources
+E:\PTTKHT\PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.Properties.Resources.resources
+E:\PTTKHT\PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.csproj.GenerateResource.cache
+E:\PTTKHT\PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.csproj.CoreCompileInputs.cache
+E:\PTTKHT\PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.exe
+E:\PTTKHT\PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.pdb
+E:\PTTKHT\New folder\UI_PTTKHT\bin\Debug\UI_PTTKHT.exe.config
+E:\PTTKHT\New folder\UI_PTTKHT\bin\Debug\UI_PTTKHT.exe
+E:\PTTKHT\New folder\UI_PTTKHT\bin\Debug\UI_PTTKHT.pdb
+E:\PTTKHT\New folder\UI_PTTKHT\obj\Debug\UI_PTTKHT.csproj.AssemblyReference.cache
+E:\PTTKHT\New folder\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmDangNhap.resources
+E:\PTTKHT\New folder\UI_PTTKHT\obj\Debug\UI_PTTKHT.Properties.Resources.resources
+E:\PTTKHT\New folder\UI_PTTKHT\obj\Debug\UI_PTTKHT.csproj.GenerateResource.cache
+E:\PTTKHT\New folder\UI_PTTKHT\obj\Debug\UI_PTTKHT.csproj.CoreCompileInputs.cache
+E:\PTTKHT\New folder\UI_PTTKHT\obj\Debug\UI_PTTKHT.exe
+E:\PTTKHT\New folder\UI_PTTKHT\obj\Debug\UI_PTTKHT.pdb
+E:\PTTKHT\1\UI_PTTKHT\bin\Debug\UI_PTTKHT.exe.config
+E:\PTTKHT\1\UI_PTTKHT\bin\Debug\UI_PTTKHT.exe
+E:\PTTKHT\1\UI_PTTKHT\bin\Debug\UI_PTTKHT.pdb
+E:\PTTKHT\1\UI_PTTKHT\obj\Debug\UI_PTTKHT.csproj.AssemblyReference.cache
+E:\PTTKHT\1\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmDangNhap.resources
+E:\PTTKHT\1\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmDangNhapGiaoVien.resources
+E:\PTTKHT\1\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmDangNhapHocSinh.resources
+E:\PTTKHT\1\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmGiaoVien.resources
+E:\PTTKHT\1\UI_PTTKHT\obj\Debug\UI_PTTKHT.Properties.Resources.resources
+E:\PTTKHT\1\UI_PTTKHT\obj\Debug\UI_PTTKHT.csproj.GenerateResource.cache
+E:\PTTKHT\1\UI_PTTKHT\obj\Debug\UI_PTTKHT.csproj.CoreCompileInputs.cache
+E:\PTTKHT\1\UI_PTTKHT\obj\Debug\UI_PTTKHT.exe
+E:\PTTKHT\1\UI_PTTKHT\obj\Debug\UI_PTTKHT.pdb
+E:\PTTKHT\2\UI_PTTKHT\bin\Debug\UI_PTTKHT.exe.config
+E:\PTTKHT\2\UI_PTTKHT\bin\Debug\UI_PTTKHT.exe
+E:\PTTKHT\2\UI_PTTKHT\bin\Debug\UI_PTTKHT.pdb
+E:\PTTKHT\2\UI_PTTKHT\obj\Debug\UI_PTTKHT.csproj.AssemblyReference.cache
+E:\PTTKHT\2\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmDangNhap.resources
+E:\PTTKHT\2\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmDangNhapGiaoVien.resources
+E:\PTTKHT\2\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmDangNhapHocSinh.resources
+E:\PTTKHT\2\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmGiaoVien.resources
+E:\PTTKHT\2\UI_PTTKHT\obj\Debug\UI_PTTKHT.Properties.Resources.resources
+E:\PTTKHT\2\UI_PTTKHT\obj\Debug\UI_PTTKHT.csproj.GenerateResource.cache
+E:\PTTKHT\2\UI_PTTKHT\obj\Debug\UI_PTTKHT.csproj.CoreCompileInputs.cache
+E:\PTTKHT\2\UI_PTTKHT\obj\Debug\UI_PTTKHT.exe
+E:\PTTKHT\2\UI_PTTKHT\obj\Debug\UI_PTTKHT.pdb
+E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmGVTrangChu.resources
+E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdDanhSachToBoMon.resources
+E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdTrangChu.resources
+E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdThongBao.resources
+E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdThongBaoChung.resources
+E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdDanhSachPhongHoc.resources
+E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdThongTinTruong.resources
+E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdSuaThongTinTruongHoc.resources
+E:\PTTKHT\New folder\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdSuaThongTinTruongHoc.resources
+E:\PTTKHT\New folder\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdThongBaoChung.resources
+E:\PTTKHT\New folder\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdThongTinTruong.resources
+E:\PTTKHT\New folder\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdDanhSachToBoMon.resources
+E:\PTTKHT\New folder\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmGVTrangChu.resources
+E:\PTTKHT\New folder\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdDanhSachPhongHoc.resources
+E:\PTTKHT\New folder\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdTrangChu.resources
+E:\PTTKHT\New folder\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdThongBao.resources
+E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdGiaoVien.resources
+E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmHSTrangChu.resources
+E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdSuaThongTinGiaoVien.resources
+E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdThemGiaoVien.resources
+E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdHocSinh.resources
+E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdLopHoc.resources
+E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdLichHocTheoTuan.resources
+E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdLichHocTheoNgay.resources
+E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdTietHoc.resources
+E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdHanhKiem.resources
+E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdMonHoc.resources
+E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdNamHoc.resources
+E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdTongKetDiem.resources
+D:\Git-Bitbucket\UI_Admin\UI_PTTKHT\bin\Debug\UI_PTTKHT.exe.config
+D:\Git-Bitbucket\UI_Admin\UI_PTTKHT\bin\Debug\UI_PTTKHT.exe
+D:\Git-Bitbucket\UI_Admin\UI_PTTKHT\bin\Debug\UI_PTTKHT.pdb
+D:\Git-Bitbucket\UI_Admin\UI_PTTKHT\obj\Debug\UI_PTTKHT.csproj.AssemblyReference.cache
+D:\Git-Bitbucket\UI_Admin\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdGiaoVien.resources
+D:\Git-Bitbucket\UI_Admin\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdHanhKiem.resources
+D:\Git-Bitbucket\UI_Admin\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdHocSinh.resources
+D:\Git-Bitbucket\UI_Admin\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdLichHocTheoNgay.resources
+D:\Git-Bitbucket\UI_Admin\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdLichHocTheoTuan.resources
+D:\Git-Bitbucket\UI_Admin\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdLopHoc.resources
+D:\Git-Bitbucket\UI_Admin\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdMonHoc.resources
+D:\Git-Bitbucket\UI_Admin\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdNamHoc.resources
+D:\Git-Bitbucket\UI_Admin\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdSuaThongTinGiaoVien.resources
+D:\Git-Bitbucket\UI_Admin\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdSuaThongTinTruongHoc.resources
+D:\Git-Bitbucket\UI_Admin\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdThongBaoChung.resources
+D:\Git-Bitbucket\UI_Admin\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdThongTinTruong.resources
+D:\Git-Bitbucket\UI_Admin\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdDanhSachToBoMon.resources
+D:\Git-Bitbucket\UI_Admin\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdTietHoc.resources
+D:\Git-Bitbucket\UI_Admin\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdTongKetDiem.resources
+D:\Git-Bitbucket\UI_Admin\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmDangNhap.resources
+D:\Git-Bitbucket\UI_Admin\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmGVTrangChu.resources
+D:\Git-Bitbucket\UI_Admin\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdDanhSachPhongHoc.resources
+D:\Git-Bitbucket\UI_Admin\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdTrangChu.resources
+D:\Git-Bitbucket\UI_Admin\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdThongBao.resources
+D:\Git-Bitbucket\UI_Admin\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmHSTrangChu.resources
+D:\Git-Bitbucket\UI_Admin\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdThemGiaoVien.resources
+D:\Git-Bitbucket\UI_Admin\UI_PTTKHT\obj\Debug\UI_PTTKHT.Properties.Resources.resources
+D:\Git-Bitbucket\UI_Admin\UI_PTTKHT\obj\Debug\UI_PTTKHT.csproj.GenerateResource.cache
+D:\Git-Bitbucket\UI_Admin\UI_PTTKHT\obj\Debug\UI_PTTKHT.csproj.CoreCompileInputs.cache
+D:\Git-Bitbucket\UI_Admin\UI_PTTKHT\obj\Debug\UI_PTTKHT.exe
+D:\Git-Bitbucket\UI_Admin\UI_PTTKHT\obj\Debug\UI_PTTKHT.pdb
