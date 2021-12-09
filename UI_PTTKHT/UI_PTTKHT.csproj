@@ -148,11 +148,29 @@
     <Compile Include="FrmGVChinhSuaThongTinGiaoVien.Designer.cs">
       <DependentUpon>FrmGVChinhSuaThongTinGiaoVien.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmGVCTNhapDiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGVCTNhapDiem.Designer.cs">
+      <DependentUpon>FrmGVCTNhapDiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGVDanhSachLop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGVDanhSachLop.Designer.cs">
+      <DependentUpon>FrmGVDanhSachLop.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmGVLichDay.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmGVLichDay.Designer.cs">
       <DependentUpon>FrmGVLichDay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGVNhapDiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGVNhapDiem.Designer.cs">
+      <DependentUpon>FrmGVNhapDiem.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmGVThongBao.cs">
       <SubType>Form</SubType>
@@ -189,6 +207,12 @@
     </Compile>
     <Compile Include="FrmAdThongBao.Designer.cs">
       <DependentUpon>FrmAdThongBao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGVXemLuong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGVXemLuong.Designer.cs">
+      <DependentUpon>FrmGVXemLuong.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmHSChinhSua.cs">
       <SubType>Form</SubType>
@@ -285,8 +309,17 @@
     <EmbeddedResource Include="FrmGVChinhSuaThongTinGiaoVien.resx">
       <DependentUpon>FrmGVChinhSuaThongTinGiaoVien.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmGVCTNhapDiem.resx">
+      <DependentUpon>FrmGVCTNhapDiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGVDanhSachLop.resx">
+      <DependentUpon>FrmGVDanhSachLop.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmGVLichDay.resx">
       <DependentUpon>FrmGVLichDay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGVNhapDiem.resx">
+      <DependentUpon>FrmGVNhapDiem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmGVThongBao.resx">
       <DependentUpon>FrmGVThongBao.cs</DependentUpon>
@@ -305,6 +338,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmAdThongBao.resx">
       <DependentUpon>FrmAdThongBao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGVXemLuong.resx">
+      <DependentUpon>FrmGVXemLuong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmHSChinhSua.resx">
       <DependentUpon>FrmHSChinhSua.cs</DependentUpon>

@@ -80,24 +80,24 @@ namespace UI_PTTKHT
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.panel10 = new System.Windows.Forms.Panel();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -323,7 +323,7 @@ namespace UI_PTTKHT
             "Sửa",
             "Đổi Mật Khẩu",
             "Thoát"});
-            this.lsbAdmin.Location = new System.Drawing.Point(410, 0);
+            this.lsbAdmin.Location = new System.Drawing.Point(381, 0);
             this.lsbAdmin.Name = "lsbAdmin";
             this.lsbAdmin.Size = new System.Drawing.Size(120, 64);
             this.lsbAdmin.TabIndex = 8;
@@ -641,6 +641,7 @@ namespace UI_PTTKHT
             this.btnThongBao.TabIndex = 39;
             this.btnThongBao.Text = "Quản Lý Điểm Số";
             this.btnThongBao.UseVisualStyleBackColor = false;
+            this.btnThongBao.Click += new System.EventHandler(this.btnThongBao_Click);
             // 
             // panel6
             // 
@@ -730,6 +731,118 @@ namespace UI_PTTKHT
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Lớp giảng dạy";
             // 
+            // label20
+            // 
+            this.label20.Location = new System.Drawing.Point(380, 210);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(69, 26);
+            this.label20.TabIndex = 2;
+            this.label20.Text = "C106";
+            // 
+            // label19
+            // 
+            this.label19.Location = new System.Drawing.Point(24, 210);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(51, 26);
+            this.label19.TabIndex = 2;
+            this.label19.Text = "12A6";
+            // 
+            // label18
+            // 
+            this.label18.Location = new System.Drawing.Point(380, 184);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(69, 26);
+            this.label18.TabIndex = 2;
+            this.label18.Text = "C101";
+            // 
+            // label17
+            // 
+            this.label17.Location = new System.Drawing.Point(24, 184);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(51, 26);
+            this.label17.TabIndex = 2;
+            this.label17.Text = "12A1";
+            // 
+            // label16
+            // 
+            this.label16.Location = new System.Drawing.Point(380, 158);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(69, 26);
+            this.label16.TabIndex = 2;
+            this.label16.Text = "C105";
+            // 
+            // label15
+            // 
+            this.label15.Location = new System.Drawing.Point(24, 158);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(51, 26);
+            this.label15.TabIndex = 2;
+            this.label15.Text = "12A5";
+            // 
+            // label14
+            // 
+            this.label14.Location = new System.Drawing.Point(380, 132);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(69, 26);
+            this.label14.TabIndex = 2;
+            this.label14.Text = "B101";
+            // 
+            // label13
+            // 
+            this.label13.Location = new System.Drawing.Point(24, 132);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(51, 26);
+            this.label13.TabIndex = 2;
+            this.label13.Text = "11A1";
+            // 
+            // label12
+            // 
+            this.label12.Location = new System.Drawing.Point(380, 106);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(69, 26);
+            this.label12.TabIndex = 2;
+            this.label12.Text = "A105";
+            // 
+            // label11
+            // 
+            this.label11.Location = new System.Drawing.Point(24, 106);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(51, 26);
+            this.label11.TabIndex = 2;
+            this.label11.Text = "10A5";
+            // 
+            // label10
+            // 
+            this.label10.Location = new System.Drawing.Point(380, 80);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(69, 26);
+            this.label10.TabIndex = 2;
+            this.label10.Text = "A101";
+            // 
+            // label9
+            // 
+            this.label9.Location = new System.Drawing.Point(24, 80);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(51, 26);
+            this.label9.TabIndex = 2;
+            this.label9.Text = "10A1";
+            // 
+            // label8
+            // 
+            this.label8.Location = new System.Drawing.Point(380, 54);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(69, 26);
+            this.label8.TabIndex = 2;
+            this.label8.Text = "Phòng ";
+            // 
+            // label6
+            // 
+            this.label6.Location = new System.Drawing.Point(24, 54);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(51, 26);
+            this.label6.TabIndex = 2;
+            this.label6.Text = "Lớp ";
+            // 
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
@@ -777,118 +890,6 @@ namespace UI_PTTKHT
             this.listBox1.Size = new System.Drawing.Size(188, 196);
             this.listBox1.TabIndex = 0;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
-            // 
-            // label6
-            // 
-            this.label6.Location = new System.Drawing.Point(24, 54);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(51, 26);
-            this.label6.TabIndex = 2;
-            this.label6.Text = "Lớp ";
-            // 
-            // label8
-            // 
-            this.label8.Location = new System.Drawing.Point(380, 54);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(69, 26);
-            this.label8.TabIndex = 2;
-            this.label8.Text = "Phòng ";
-            // 
-            // label9
-            // 
-            this.label9.Location = new System.Drawing.Point(24, 80);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(51, 26);
-            this.label9.TabIndex = 2;
-            this.label9.Text = "10A1";
-            // 
-            // label10
-            // 
-            this.label10.Location = new System.Drawing.Point(380, 80);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(69, 26);
-            this.label10.TabIndex = 2;
-            this.label10.Text = "A101";
-            // 
-            // label11
-            // 
-            this.label11.Location = new System.Drawing.Point(24, 106);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(51, 26);
-            this.label11.TabIndex = 2;
-            this.label11.Text = "10A5";
-            // 
-            // label12
-            // 
-            this.label12.Location = new System.Drawing.Point(380, 106);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(69, 26);
-            this.label12.TabIndex = 2;
-            this.label12.Text = "A105";
-            // 
-            // label13
-            // 
-            this.label13.Location = new System.Drawing.Point(24, 132);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(51, 26);
-            this.label13.TabIndex = 2;
-            this.label13.Text = "11A1";
-            // 
-            // label14
-            // 
-            this.label14.Location = new System.Drawing.Point(380, 132);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(69, 26);
-            this.label14.TabIndex = 2;
-            this.label14.Text = "B101";
-            // 
-            // label15
-            // 
-            this.label15.Location = new System.Drawing.Point(24, 158);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(51, 26);
-            this.label15.TabIndex = 2;
-            this.label15.Text = "12A5";
-            // 
-            // label16
-            // 
-            this.label16.Location = new System.Drawing.Point(380, 158);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(69, 26);
-            this.label16.TabIndex = 2;
-            this.label16.Text = "C105";
-            // 
-            // label17
-            // 
-            this.label17.Location = new System.Drawing.Point(24, 184);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(51, 26);
-            this.label17.TabIndex = 2;
-            this.label17.Text = "12A1";
-            // 
-            // label18
-            // 
-            this.label18.Location = new System.Drawing.Point(380, 184);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(69, 26);
-            this.label18.TabIndex = 2;
-            this.label18.Text = "C101";
-            // 
-            // label19
-            // 
-            this.label19.Location = new System.Drawing.Point(24, 210);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(51, 26);
-            this.label19.TabIndex = 2;
-            this.label19.Text = "12A6";
-            // 
-            // label20
-            // 
-            this.label20.Location = new System.Drawing.Point(380, 210);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(69, 26);
-            this.label20.TabIndex = 2;
-            this.label20.Text = "C106";
             // 
             // FrmGVTrangChu
             // 

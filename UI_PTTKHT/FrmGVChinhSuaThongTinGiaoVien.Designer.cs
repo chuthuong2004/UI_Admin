@@ -67,11 +67,11 @@ namespace UI_PTTKHT
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.label9 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.label13 = new System.Windows.Forms.Label();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -172,9 +172,9 @@ namespace UI_PTTKHT
             this.label7.ForeColor = System.Drawing.Color.Green;
             this.label7.Location = new System.Drawing.Point(12, 18);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(248, 25);
+            this.label7.Size = new System.Drawing.Size(320, 25);
             this.label7.TabIndex = 1;
-            this.label7.Text = "Sửa thông tin học sinh";
+            this.label7.Text = "Chỉnh sửa thông tin giáo viên";
             // 
             // label2
             // 
@@ -505,23 +505,14 @@ namespace UI_PTTKHT
             this.panel5.TabIndex = 18;
             this.panel5.Click += new System.EventHandler(this.panel5_Click);
             // 
-            // label9
+            // comboBox3
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(427, 212);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(45, 16);
-            this.label9.TabIndex = 1;
-            this.label9.Text = "Email:";
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(148, 209);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(224, 24);
-            this.comboBox2.TabIndex = 41;
-            this.comboBox2.Text = "  << Chọn tổ bộ môn >>";
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(148, 169);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(224, 24);
+            this.comboBox3.TabIndex = 41;
+            this.comboBox3.Text = " << Chọn môn dạy >>";
             // 
             // label13
             // 
@@ -532,14 +523,14 @@ namespace UI_PTTKHT
             this.label13.TabIndex = 40;
             this.label13.Text = "Môn dạy:";
             // 
-            // comboBox3
+            // comboBox2
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(148, 169);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(224, 24);
-            this.comboBox3.TabIndex = 41;
-            this.comboBox3.Text = " << Chọn môn dạy >>";
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(148, 209);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(224, 24);
+            this.comboBox2.TabIndex = 41;
+            this.comboBox2.Text = "  << Chọn tổ bộ môn >>";
             // 
             // pictureBox3
             // 
@@ -550,6 +541,15 @@ namespace UI_PTTKHT
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 36;
             this.pictureBox3.TabStop = false;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(427, 212);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(45, 16);
+            this.label9.TabIndex = 1;
+            this.label9.Text = "Email:";
             // 
             // FrmGVChinhSuaThongTinGiaoVien
             // 

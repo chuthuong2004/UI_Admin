@@ -154,3 +154,47 @@ E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmGVLichDay.resources
 E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmGVThongBao.resources
 E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmGVThongTinCaNhan.resources
 E:\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmGVChinhSuaThongTinGiaoVien.resources
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\bin\Debug\UI_PTTKHT.exe.config
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\bin\Debug\UI_PTTKHT.exe
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\bin\Debug\UI_PTTKHT.pdb
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.csproj.AssemblyReference.cache
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdGiaoVien.resources
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdHanhKiem.resources
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdHocSinh.resources
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdLichHocTheoNgay.resources
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdLichHocTheoTuan.resources
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdLopHoc.resources
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdMonHoc.resources
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdNamHoc.resources
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdSuaThongTinGiaoVien.resources
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdSuaThongTinTruongHoc.resources
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdThongBaoChung.resources
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdThongTinTruong.resources
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdDanhSachToBoMon.resources
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdTietHoc.resources
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdTongKetDiem.resources
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmDangNhap.resources
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmGVChinhSuaThongTinGiaoVien.resources
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmGVLichDay.resources
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmGVNhapDiem.resources
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmGVThongBao.resources
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmGVThongTinCaNhan.resources
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmGVTrangChu.resources
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdDanhSachPhongHoc.resources
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdTrangChu.resources
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdThongBao.resources
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmHSChinhSua.resources
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmHSThongBao.resources
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmHSTKB.resources
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmHSTrangChu.resources
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmAdThemGiaoVien.resources
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmHSTTCaNhan.resources
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmHSXemDiem.resources
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.Properties.Resources.resources
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.csproj.GenerateResource.cache
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.csproj.CoreCompileInputs.cache
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.exe
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.pdb
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmGVCTNhapDiem.resources
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmGVXemLuong.resources
+E:\Môn Học\PTTKHT\UI_PTTKHT\UI_PTTKHT\obj\Debug\UI_PTTKHT.FrmGVDanhSachLop.resources

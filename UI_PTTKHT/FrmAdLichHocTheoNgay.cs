@@ -109,13 +109,12 @@ namespace UI_PTTKHT
         private void lblQLDT_Click(object sender, EventArgs e)
         {
             Thread.Sleep(10);
-            if (lblNamHoc.Visible && lblMonHoc.Visible && lblXepHang.Visible &&
+            if (lblNamHoc.Visible && lblMonHoc.Visible &&
                 lblHanhKiem.Visible && lblTietHoc.Visible
                 && lblLichNgay.Visible && lblLichTuan.Visible)
             {
                 lblNamHoc.Visible = false;
                 lblMonHoc.Visible = false;
-                lblXepHang.Visible = false;
                 lblHanhKiem.Visible = false;
                 lblTietHoc.Visible = false;
                 lblLichNgay.Visible = false;
@@ -125,7 +124,6 @@ namespace UI_PTTKHT
             {
                 lblNamHoc.Visible = true;
                 lblMonHoc.Visible = true;
-                lblXepHang.Visible = true;
                 lblHanhKiem.Visible = true;
                 lblTietHoc.Visible = true;
                 lblLichNgay.Visible = true;

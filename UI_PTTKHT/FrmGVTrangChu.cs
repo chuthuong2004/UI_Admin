@@ -125,5 +125,11 @@ namespace UI_PTTKHT
         {
             lsbAdmin.Visible = false;
         }
+
+        private void btnThongBao_Click(object sender, EventArgs e)
+        {
+            FrmGVNhapDiem frmGVNhapDiem = new FrmGVNhapDiem();
+            ShowForm(frmGVNhapDiem);
+        }
     }
 }

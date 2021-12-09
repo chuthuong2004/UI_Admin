@@ -39,17 +39,20 @@ namespace UI_PTTKHT
 
         private void label14_Click(object sender, EventArgs e)
         {
-
+            FrmGVXemLuong frm = new FrmGVXemLuong();
+            ShowForm(frm);
         }
 
         private void label15_Click(object sender, EventArgs e)
         {
-
+            FrmGVNhapDiem frmGVNhapDiem = new FrmGVNhapDiem();
+            ShowForm(frmGVNhapDiem);
         }
 
         private void label34_Click(object sender, EventArgs e)
         {
-
+            FrmGVDanhSachLop frmGVDanhSachLop = new FrmGVDanhSachLop();
+            ShowForm(frmGVDanhSachLop);
         }
 
         private void label7_Click(object sender, EventArgs e)

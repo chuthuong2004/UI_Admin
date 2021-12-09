@@ -4,13 +4,12 @@ using System.Windows.Forms;
 
 namespace UI_PTTKHT
 {
-    public partial class FrmGVThongTinCaNhan : Form
+    public partial class FrmGVDanhSachLop : Form
     {
-        public FrmGVThongTinCaNhan()
+        public FrmGVDanhSachLop()
         {
             InitializeComponent();
         }
-
         private void ShowForm(Form form)
         {
             Thread thread = new Thread(new ThreadStart(() =>
@@ -21,35 +20,34 @@ namespace UI_PTTKHT
             Thread.Sleep(10);
             this.Close();
         }
-
         private void label13_Click(object sender, EventArgs e)
         {
-            FrmGVTrangChu frm = new FrmGVTrangChu();
-            ShowForm(frm);
+            FrmGVTrangChu frmGVTrangChu = new FrmGVTrangChu();
+            ShowForm(frmGVTrangChu);
         }
 
         private void label8_Click(object sender, EventArgs e)
         {
-            FrmGVThongBao frm = new FrmGVThongBao();
-            ShowForm(frm);
+            FrmGVThongBao frmGVThongBao = new FrmGVThongBao();
+            ShowForm(frmGVThongBao);
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+            FrmGVThongTinCaNhan frmGVThongTinCaNhan = new FrmGVThongTinCaNhan();
+            ShowForm(frmGVThongTinCaNhan);
         }
 
         private void label12_Click(object sender, EventArgs e)
         {
-            FrmGVLichDay frm = new FrmGVLichDay();
-            ShowForm(frm);
+            FrmGVLichDay frmGVLichDay = new FrmGVLichDay();
+            ShowForm(frmGVLichDay);
         }
 
         private void label14_Click(object sender, EventArgs e)
         {
-            FrmGVXemLuong frm = new FrmGVXemLuong();
-            ShowForm(frm);
-        }
-
-        private void label34_Click(object sender, EventArgs e)
-        {
-            FrmGVDanhSachLop frmGVDanhSachLop = new FrmGVDanhSachLop();
-            ShowForm(frmGVDanhSachLop);
+            FrmGVXemLuong frmGVXemLuong = new FrmGVXemLuong();
+            ShowForm(frmGVXemLuong);
         }
 
         private void label15_Click(object sender, EventArgs e)
@@ -68,7 +66,7 @@ namespace UI_PTTKHT
             lsbAdmin.Visible = true;
         }
 
-        private void lsbAdmin_SelectedIndexChanged(object sender, EventArgs e)
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (lsbAdmin.SelectedIndex == 0)
             {
@@ -97,15 +95,14 @@ namespace UI_PTTKHT
             lsbAdmin.Visible = false;
         }
 
-        private void flowLayoutPanel1_Click(object sender, EventArgs e)
+        private void tableLayoutPanel1_Click(object sender, EventArgs e)
         {
             lsbAdmin.Visible = false;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void flowLayoutPanel1_Click(object sender, EventArgs e)
         {
-            FrmGVChinhSuaThongTinGiaoVien frm = new FrmGVChinhSuaThongTinGiaoVien();
-            ShowForm(frm);
+            lsbAdmin.Visible = false;
         }
     }
 }

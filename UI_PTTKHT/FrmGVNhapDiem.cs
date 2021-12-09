@@ -4,13 +4,37 @@ using System.Windows.Forms;
 
 namespace UI_PTTKHT
 {
-    public partial class FrmGVThongTinCaNhan : Form
+    public partial class FrmGVNhapDiem : Form
     {
-        public FrmGVThongTinCaNhan()
+        public FrmGVNhapDiem()
         {
             InitializeComponent();
         }
 
+        private void radChuNhiem_Click(object sender, EventArgs e)
+        {
+            radChuNhiem.Checked = true;
+            radMon.Checked = false;
+            tblChuNhiem.Visible = true;
+            tblBoMon.Visible = false;
+            label287.Visible = false;
+            label286.Visible = false;
+            label285.Visible = false;
+            cbLop.Text = " 12A6";
+        }
+
+        private void radMon_Click(object sender, EventArgs e)
+        {
+            radMon.Checked = true;
+            radChuNhiem.Checked = false;
+            tblChuNhiem.Visible = false;
+
+            label287.Visible = true;
+            label286.Visible = true;
+            label285.Visible = true;
+            tblBoMon.Visible = true;
+            cbLop.Text = " 10A1";
+        }
         private void ShowForm(Form form)
         {
             Thread thread = new Thread(new ThreadStart(() =>
@@ -21,23 +45,28 @@ namespace UI_PTTKHT
             Thread.Sleep(10);
             this.Close();
         }
-
         private void label13_Click(object sender, EventArgs e)
         {
-            FrmGVTrangChu frm = new FrmGVTrangChu();
-            ShowForm(frm);
+            FrmGVTrangChu frmGVTrangChu = new FrmGVTrangChu();
+            ShowForm(frmGVTrangChu);
         }
 
         private void label8_Click(object sender, EventArgs e)
         {
-            FrmGVThongBao frm = new FrmGVThongBao();
-            ShowForm(frm);
+            FrmGVThongBao frmGVThongBao = new FrmGVThongBao();
+            ShowForm(frmGVThongBao);
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+            FrmGVThongTinCaNhan frmGVThongTinCaNhan = new FrmGVThongTinCaNhan();
+            ShowForm(frmGVThongTinCaNhan);
         }
 
         private void label12_Click(object sender, EventArgs e)
         {
-            FrmGVLichDay frm = new FrmGVLichDay();
-            ShowForm(frm);
+            FrmGVLichDay frmGVLichDay = new FrmGVLichDay();
+            ShowForm(frmGVLichDay);
         }
 
         private void label14_Click(object sender, EventArgs e)
@@ -46,16 +75,10 @@ namespace UI_PTTKHT
             ShowForm(frm);
         }
 
-        private void label34_Click(object sender, EventArgs e)
+        private void label58_Click(object sender, EventArgs e)
         {
             FrmGVDanhSachLop frmGVDanhSachLop = new FrmGVDanhSachLop();
             ShowForm(frmGVDanhSachLop);
-        }
-
-        private void label15_Click(object sender, EventArgs e)
-        {
-            FrmGVNhapDiem frmGVNhapDiem = new FrmGVNhapDiem();
-            ShowForm(frmGVNhapDiem);
         }
 
         private void label7_Click(object sender, EventArgs e)
@@ -92,7 +115,12 @@ namespace UI_PTTKHT
             lsbAdmin.Visible = false;
         }
 
-        private void panel3_Click(object sender, EventArgs e)
+        private void panel2_Click(object sender, EventArgs e)
+        {
+            lsbAdmin.Visible = false;
+        }
+
+        private void tblBoMon_Click(object sender, EventArgs e)
         {
             lsbAdmin.Visible = false;
         }
@@ -100,12 +128,6 @@ namespace UI_PTTKHT
         private void flowLayoutPanel1_Click(object sender, EventArgs e)
         {
             lsbAdmin.Visible = false;
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            FrmGVChinhSuaThongTinGiaoVien frm = new FrmGVChinhSuaThongTinGiaoVien();
-            ShowForm(frm);
         }
     }
 }
