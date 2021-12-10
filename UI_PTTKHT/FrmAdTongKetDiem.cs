@@ -227,5 +227,95 @@ namespace UI_PTTKHT
                 ShowForm(frm);
             }
         }
+
+        private void pictureBox14_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng tìm kiếm đang bảo trì !");
+        }
+
+        private void pictureBox13_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng chỉnh sửa đang bảo trì !");
+        }
+
+        private void pictureBox12_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng chỉnh sửa đang bảo trì !");
+        }
+
+        private void pictureBox11_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng chỉnh sửa đang bảo trì !");
+        }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng chỉnh sửa đang bảo trì !");
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng chỉnh sửa đang bảo trì !");
+        }
+
+        private void pictureBox20_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng tìm kiếm đang bảo trì !");
+        }
+
+        private void pictureBox19_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng chỉnh sửa đang bảo trì !");
+        }
+
+        private void pictureBox18_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng chỉnh sửa đang bảo trì !");
+        }
+
+        private void pictureBox16_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng chỉnh sửa đang bảo trì !");
+        }
+
+        private void pictureBox15_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng chỉnh sửa đang bảo trì !");
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng chỉnh sửa đang bảo trì !");
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng chỉnh sửa đang bảo trì !");
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng chỉnh sửa đang bảo trì !");
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng chỉnh sửa đang bảo trì !");
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng chỉnh sửa đang bảo trì !");
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng tìm kiếm đang bảo trì !");
+        }
+
+        private void pictureBox17_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng chỉnh sửa đang bảo trì !");
+        }
     }
 }

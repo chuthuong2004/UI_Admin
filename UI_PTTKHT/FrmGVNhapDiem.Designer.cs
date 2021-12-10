@@ -572,7 +572,7 @@ namespace UI_PTTKHT
             "Sửa",
             "Đổi Mật Khẩu",
             "Thoát"});
-            this.lsbAdmin.Location = new System.Drawing.Point(796, 3);
+            this.lsbAdmin.Location = new System.Drawing.Point(786, -1);
             this.lsbAdmin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lsbAdmin.Name = "lsbAdmin";
             this.lsbAdmin.Size = new System.Drawing.Size(120, 52);
@@ -770,6 +770,7 @@ namespace UI_PTTKHT
             // 
             // pictureBox4
             // 
+            this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox4.Image = global::UI_PTTKHT.Properties.Resources.edit2;
             this.pictureBox4.Location = new System.Drawing.Point(862, 178);
             this.pictureBox4.Name = "pictureBox4";
@@ -777,9 +778,11 @@ namespace UI_PTTKHT
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 154;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // pictureBox13
             // 
+            this.pictureBox13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox13.Image = global::UI_PTTKHT.Properties.Resources.edit2;
             this.pictureBox13.Location = new System.Drawing.Point(862, 153);
             this.pictureBox13.Name = "pictureBox13";
@@ -787,9 +790,11 @@ namespace UI_PTTKHT
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox13.TabIndex = 153;
             this.pictureBox13.TabStop = false;
+            this.pictureBox13.Click += new System.EventHandler(this.pictureBox13_Click);
             // 
             // pictureBox14
             // 
+            this.pictureBox14.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox14.Image = global::UI_PTTKHT.Properties.Resources.edit2;
             this.pictureBox14.Location = new System.Drawing.Point(862, 128);
             this.pictureBox14.Name = "pictureBox14";
@@ -797,9 +802,11 @@ namespace UI_PTTKHT
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox14.TabIndex = 152;
             this.pictureBox14.TabStop = false;
+            this.pictureBox14.Click += new System.EventHandler(this.pictureBox14_Click);
             // 
             // pictureBox15
             // 
+            this.pictureBox15.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox15.Image = global::UI_PTTKHT.Properties.Resources.edit2;
             this.pictureBox15.Location = new System.Drawing.Point(862, 103);
             this.pictureBox15.Name = "pictureBox15";
@@ -807,6 +814,7 @@ namespace UI_PTTKHT
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox15.TabIndex = 151;
             this.pictureBox15.TabStop = false;
+            this.pictureBox15.Click += new System.EventHandler(this.pictureBox15_Click);
             // 
             // label185
             // 
@@ -1938,6 +1946,7 @@ namespace UI_PTTKHT
             // 
             // pictureBox16
             // 
+            this.pictureBox16.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox16.Image = global::UI_PTTKHT.Properties.Resources.edit2;
             this.pictureBox16.Location = new System.Drawing.Point(862, 78);
             this.pictureBox16.Name = "pictureBox16";
@@ -1945,6 +1954,7 @@ namespace UI_PTTKHT
             this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox16.TabIndex = 150;
             this.pictureBox16.TabStop = false;
+            this.pictureBox16.Click += new System.EventHandler(this.pictureBox16_Click);
             // 
             // label183
             // 
@@ -1959,6 +1969,7 @@ namespace UI_PTTKHT
             // 
             // button1
             // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(866, 9);
             this.button1.Name = "button1";
@@ -1966,6 +1977,7 @@ namespace UI_PTTKHT
             this.button1.TabIndex = 17;
             this.button1.Text = "+";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // tblChuNhiem
             // 
@@ -4248,6 +4260,7 @@ namespace UI_PTTKHT
             // radMon
             // 
             this.radMon.AutoSize = true;
+            this.radMon.Cursor = System.Windows.Forms.Cursors.Hand;
             this.radMon.Location = new System.Drawing.Point(656, 45);
             this.radMon.Name = "radMon";
             this.radMon.Size = new System.Drawing.Size(97, 20);
@@ -4260,6 +4273,7 @@ namespace UI_PTTKHT
             // 
             this.radChuNhiem.AutoSize = true;
             this.radChuNhiem.Checked = true;
+            this.radChuNhiem.Cursor = System.Windows.Forms.Cursors.Hand;
             this.radChuNhiem.Location = new System.Drawing.Point(538, 46);
             this.radChuNhiem.Name = "radChuNhiem";
             this.radChuNhiem.Size = new System.Drawing.Size(112, 20);

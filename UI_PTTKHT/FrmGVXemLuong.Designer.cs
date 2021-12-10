@@ -294,7 +294,7 @@ namespace UI_PTTKHT
             "Sửa",
             "Đổi Mật Khẩu",
             "Thoát"});
-            this.lsbAdmin.Location = new System.Drawing.Point(792, 1);
+            this.lsbAdmin.Location = new System.Drawing.Point(779, 0);
             this.lsbAdmin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lsbAdmin.Name = "lsbAdmin";
             this.lsbAdmin.Size = new System.Drawing.Size(127, 68);
@@ -1087,6 +1087,7 @@ namespace UI_PTTKHT
             this.button1.TabIndex = 23;
             this.button1.Text = "In bảng lương";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label20
             // 

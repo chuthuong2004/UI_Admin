@@ -100,8 +100,9 @@ namespace UI_PTTKHT
 
         private void radioButton2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Xin lỗi hiện tại chỉ tải được trang này !");
             radioButton2.Checked = false;
+            MessageBox.Show("Xin lỗi hiện tại chỉ tải được trang này !");
+            
             radioButton1.Checked = true;
         }
     }

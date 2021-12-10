@@ -129,5 +129,35 @@ namespace UI_PTTKHT
         {
             lsbAdmin.Visible = false;
         }
+
+        private void pictureBox16_Click(object sender, EventArgs e)
+        {
+           MessageBox.Show("Chức năng chỉnh sửa điểm đang bảo trì !");
+        }
+
+        private void pictureBox15_Click(object sender, EventArgs e)
+        {
+           MessageBox.Show("Chức năng chỉnh sửa điểm đang bảo trì !");
+        }
+
+        private void pictureBox14_Click(object sender, EventArgs e)
+        {
+           MessageBox.Show("Chức năng chỉnh sửa điểm đang bảo trì !");
+        }
+
+        private void pictureBox13_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng chỉnh sửa điểm đang bảo trì !");
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng chỉnh sửa điểm đang bảo trì !");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng thêm thông tin điểm đang bảo trì !");
+        }
     }
 }

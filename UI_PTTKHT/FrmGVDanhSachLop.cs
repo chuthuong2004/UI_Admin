@@ -104,5 +104,15 @@ namespace UI_PTTKHT
         {
             lsbAdmin.Visible = false;
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng tìm kiếm đang bảo trì !");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng thêm đang bảo trì !");
+        }
     }
 }

@@ -104,5 +104,10 @@ namespace UI_PTTKHT
         {
              lsbAdmin.Visible = false;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Xin lỗi chức năng in bảng lương đang bảo trì !");
+        }
     }
 }

@@ -102,7 +102,7 @@ namespace UI_PTTKHT
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Xin lỗi hiện tại chỉ tải được trang này !");
         }
     }
 }

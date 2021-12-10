@@ -121,6 +121,7 @@ namespace UI_PTTKHT
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -134,6 +135,7 @@ namespace UI_PTTKHT
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.panel1.Controls.Add(this.lsbAdmin);
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.pictureBox1);
@@ -303,7 +305,7 @@ namespace UI_PTTKHT
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.lsbAdmin);
+            this.panel3.Controls.Add(this.button1);
             this.panel3.Controls.Add(this.pictureBox3);
             this.panel3.Controls.Add(this.textBox1);
             this.panel3.Controls.Add(this.label3);
@@ -326,7 +328,7 @@ namespace UI_PTTKHT
             "Sửa",
             "Đổi Mật Khẩu",
             "Thoát"});
-            this.lsbAdmin.Location = new System.Drawing.Point(779, 0);
+            this.lsbAdmin.Location = new System.Drawing.Point(845, 2);
             this.lsbAdmin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lsbAdmin.Name = "lsbAdmin";
             this.lsbAdmin.Size = new System.Drawing.Size(127, 68);
@@ -336,18 +338,20 @@ namespace UI_PTTKHT
             // 
             // pictureBox3
             // 
+            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = global::UI_PTTKHT.Properties.Resources.search;
-            this.pictureBox3.Location = new System.Drawing.Point(878, 32);
+            this.pictureBox3.Location = new System.Drawing.Point(833, 29);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(24, 21);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 21;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(595, 32);
+            this.textBox1.Location = new System.Drawing.Point(550, 29);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(277, 21);
@@ -359,7 +363,7 @@ namespace UI_PTTKHT
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(393, 36);
+            this.label3.Location = new System.Drawing.Point(356, 33);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(68, 17);
             this.label3.TabIndex = 13;
@@ -388,7 +392,7 @@ namespace UI_PTTKHT
             "12A6",
             "12A7",
             "12A8"});
-            this.comboBox1.Location = new System.Drawing.Point(467, 32);
+            this.comboBox1.Location = new System.Drawing.Point(430, 29);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(103, 24);
@@ -1299,6 +1303,18 @@ namespace UI_PTTKHT
             this.label2.Text = "Mã HS";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // button1
+            // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(871, 14);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(37, 39);
+            this.button1.TabIndex = 22;
+            this.button1.Text = "+";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // FrmGVDanhSachLop
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1422,5 +1438,6 @@ namespace UI_PTTKHT
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label81;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Button button1;
     }
 }
