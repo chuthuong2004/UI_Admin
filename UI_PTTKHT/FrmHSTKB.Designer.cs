@@ -190,7 +190,7 @@ namespace UI_PTTKHT
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 45F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 45F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(915, 501);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(913, 501);
             this.tableLayoutPanel1.TabIndex = 2;
             // 
             // listBox7
@@ -216,7 +216,7 @@ namespace UI_PTTKHT
             this.listBox13.Location = new System.Drawing.Point(785, 278);
             this.listBox13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.listBox13.Name = "listBox13";
-            this.listBox13.Size = new System.Drawing.Size(125, 219);
+            this.listBox13.Size = new System.Drawing.Size(123, 219);
             this.listBox13.TabIndex = 19;
             // 
             // listBox10
@@ -332,7 +332,7 @@ namespace UI_PTTKHT
             this.label3.ForeColor = System.Drawing.Color.Silver;
             this.label3.Location = new System.Drawing.Point(785, 2);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(125, 49);
+            this.label3.Size = new System.Drawing.Size(123, 49);
             this.label3.TabIndex = 6;
             this.label3.Text = "Chủ Nhật";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -430,7 +430,7 @@ namespace UI_PTTKHT
             this.listBox14.Location = new System.Drawing.Point(785, 55);
             this.listBox14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.listBox14.Name = "listBox14";
-            this.listBox14.Size = new System.Drawing.Size(125, 217);
+            this.listBox14.Size = new System.Drawing.Size(123, 217);
             this.listBox14.TabIndex = 24;
             // 
             // lsbAdmin
@@ -442,7 +442,7 @@ namespace UI_PTTKHT
             "Sửa",
             "Đổi Mật Khẩu",
             "Thoát"});
-            this.lsbAdmin.Location = new System.Drawing.Point(957, 50);
+            this.lsbAdmin.Location = new System.Drawing.Point(789, 0);
             this.lsbAdmin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lsbAdmin.Name = "lsbAdmin";
             this.lsbAdmin.Size = new System.Drawing.Size(120, 68);
@@ -468,11 +468,12 @@ namespace UI_PTTKHT
             this.panel4.Location = new System.Drawing.Point(0, 95);
             this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(915, 501);
+            this.panel4.Size = new System.Drawing.Size(913, 501);
             this.panel4.TabIndex = 8;
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.lsbAdmin);
             this.panel3.Controls.Add(this.radioButton2);
             this.panel3.Controls.Add(this.radioButton1);
             this.panel3.Controls.Add(this.button3);
@@ -482,10 +483,10 @@ namespace UI_PTTKHT
             this.panel3.Controls.Add(this.button2);
             this.panel3.Controls.Add(this.dateTimePicker1);
             this.panel3.Cursor = System.Windows.Forms.Cursors.Default;
-            this.panel3.Location = new System.Drawing.Point(163, 50);
+            this.panel3.Location = new System.Drawing.Point(165, 50);
             this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(915, 596);
+            this.panel3.Size = new System.Drawing.Size(913, 596);
             this.panel3.TabIndex = 11;
             this.panel3.Click += new System.EventHandler(this.panel3_Click);
             // 
@@ -612,7 +613,7 @@ namespace UI_PTTKHT
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 6);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(163, 590);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(165, 590);
             this.flowLayoutPanel1.TabIndex = 0;
             this.flowLayoutPanel1.Click += new System.EventHandler(this.flowLayoutPanel1_Click);
             // 
@@ -636,7 +637,7 @@ namespace UI_PTTKHT
             this.label8.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
             this.label8.Size = new System.Drawing.Size(153, 37);
             this.label8.TabIndex = 10;
-            this.label8.Text = "Thông báo";
+            this.label8.Text = "Xem thông báo";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
@@ -648,7 +649,7 @@ namespace UI_PTTKHT
             this.label13.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
             this.label13.Size = new System.Drawing.Size(153, 37);
             this.label13.TabIndex = 11;
-            this.label13.Text = "Thông tin cá nhân";
+            this.label13.Text = "Xem thông tin cá nhân";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
@@ -660,7 +661,7 @@ namespace UI_PTTKHT
             this.label14.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
             this.label14.Size = new System.Drawing.Size(153, 37);
             this.label14.TabIndex = 12;
-            this.label14.Text = "Thời khóa biểu";
+            this.label14.Text = "Xem lịch học";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label15
@@ -671,7 +672,7 @@ namespace UI_PTTKHT
             this.label15.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
             this.label15.Size = new System.Drawing.Size(153, 37);
             this.label15.TabIndex = 13;
-            this.label15.Text = "Kết quả học tập";
+            this.label15.Text = "Xem điểm số";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label15.Click += new System.EventHandler(this.label15_Click);
             // 
@@ -691,7 +692,6 @@ namespace UI_PTTKHT
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1077, 642);
-            this.Controls.Add(this.lsbAdmin);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);

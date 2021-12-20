@@ -306,7 +306,7 @@ namespace UI_PTTKHT
             this.lblThongBaoChung.Name = "lblThongBaoChung";
             this.lblThongBaoChung.Size = new System.Drawing.Size(153, 26);
             this.lblThongBaoChung.TabIndex = 0;
-            this.lblThongBaoChung.Text = "Thông báo chung";
+            this.lblThongBaoChung.Text = "Xem thông báo chung";
             this.lblThongBaoChung.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblThongBaoChung.Click += new System.EventHandler(this.lblThongBaoChung_Click);
             // 
@@ -316,7 +316,7 @@ namespace UI_PTTKHT
             this.lblThongTinTruong.Name = "lblThongTinTruong";
             this.lblThongTinTruong.Size = new System.Drawing.Size(153, 26);
             this.lblThongTinTruong.TabIndex = 0;
-            this.lblThongTinTruong.Text = "Thông tin trường";
+            this.lblThongTinTruong.Text = "Quản lý thông tin trường";
             this.lblThongTinTruong.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblThongTinTruong.Click += new System.EventHandler(this.lblThongTinTruong_Click);
             // 
@@ -394,7 +394,7 @@ namespace UI_PTTKHT
             this.lblThongBao.Name = "lblThongBao";
             this.lblThongBao.Size = new System.Drawing.Size(153, 26);
             this.lblThongBao.TabIndex = 0;
-            this.lblThongBao.Text = "Thông báo";
+            this.lblThongBao.Text = "Xem thông báo";
             this.lblThongBao.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblThongBao.Visible = false;
             this.lblThongBao.Click += new System.EventHandler(this.lblThongBao_Click);

@@ -44,6 +44,7 @@ namespace UI_PTTKHT
             this.lblQLDT = new System.Windows.Forms.Label();
             this.lblNamHoc = new System.Windows.Forms.Label();
             this.lblMonHoc = new System.Windows.Forms.Label();
+            this.lblHanhKiem = new System.Windows.Forms.Label();
             this.lblTietHoc = new System.Windows.Forms.Label();
             this.lblLichNgay = new System.Windows.Forms.Label();
             this.lblLichTuan = new System.Windows.Forms.Label();
@@ -98,7 +99,6 @@ namespace UI_PTTKHT
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.lblHanhKiem = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -178,7 +178,7 @@ namespace UI_PTTKHT
             this.lblThongBaoChung.Name = "lblThongBaoChung";
             this.lblThongBaoChung.Size = new System.Drawing.Size(153, 26);
             this.lblThongBaoChung.TabIndex = 0;
-            this.lblThongBaoChung.Text = "Thông báo chung";
+            this.lblThongBaoChung.Text = "Xem thông báo chung";
             this.lblThongBaoChung.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblThongBaoChung.Click += new System.EventHandler(this.lblThongBaoChung_Click);
             // 
@@ -188,7 +188,7 @@ namespace UI_PTTKHT
             this.lblThongTinTruong.Name = "lblThongTinTruong";
             this.lblThongTinTruong.Size = new System.Drawing.Size(153, 26);
             this.lblThongTinTruong.TabIndex = 0;
-            this.lblThongTinTruong.Text = "Thông tin trường";
+            this.lblThongTinTruong.Text = "Quản lý thông tin trường";
             this.lblThongTinTruong.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblThongTinTruong.Click += new System.EventHandler(this.lblThongTinTruong_Click);
             // 
@@ -264,7 +264,7 @@ namespace UI_PTTKHT
             this.lblThongBao.Name = "lblThongBao";
             this.lblThongBao.Size = new System.Drawing.Size(153, 26);
             this.lblThongBao.TabIndex = 0;
-            this.lblThongBao.Text = "Thông báo";
+            this.lblThongBao.Text = "Xem thông báo";
             this.lblThongBao.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblThongBao.Visible = false;
             this.lblThongBao.Click += new System.EventHandler(this.lblThongBao_Click);
@@ -303,6 +303,17 @@ namespace UI_PTTKHT
             this.lblMonHoc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblMonHoc.Visible = false;
             this.lblMonHoc.Click += new System.EventHandler(this.lblMonHoc_Click);
+            // 
+            // lblHanhKiem
+            // 
+            this.lblHanhKiem.Location = new System.Drawing.Point(3, 338);
+            this.lblHanhKiem.Name = "lblHanhKiem";
+            this.lblHanhKiem.Size = new System.Drawing.Size(153, 26);
+            this.lblHanhKiem.TabIndex = 7;
+            this.lblHanhKiem.Text = "Hạnh kiểm";
+            this.lblHanhKiem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblHanhKiem.Visible = false;
+            this.lblHanhKiem.Click += new System.EventHandler(this.lblHanhKiem_Click);
             // 
             // lblTietHoc
             // 
@@ -973,17 +984,6 @@ namespace UI_PTTKHT
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
-            // 
-            // lblHanhKiem
-            // 
-            this.lblHanhKiem.Location = new System.Drawing.Point(3, 338);
-            this.lblHanhKiem.Name = "lblHanhKiem";
-            this.lblHanhKiem.Size = new System.Drawing.Size(153, 26);
-            this.lblHanhKiem.TabIndex = 7;
-            this.lblHanhKiem.Text = "Hạnh kiểm";
-            this.lblHanhKiem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblHanhKiem.Visible = false;
-            this.lblHanhKiem.Click += new System.EventHandler(this.lblHanhKiem_Click);
             // 
             // FrmAdDanhSachPhongHoc
             // 

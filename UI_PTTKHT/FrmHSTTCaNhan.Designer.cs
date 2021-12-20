@@ -131,7 +131,7 @@ namespace UI_PTTKHT
             this.panel2.Location = new System.Drawing.Point(0, 50);
             this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(154, 592);
+            this.panel2.Size = new System.Drawing.Size(185, 592);
             this.panel2.TabIndex = 13;
             // 
             // flowLayoutPanel1
@@ -144,7 +144,7 @@ namespace UI_PTTKHT
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(154, 592);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(185, 592);
             this.flowLayoutPanel1.TabIndex = 0;
             this.flowLayoutPanel1.Click += new System.EventHandler(this.flowLayoutPanel1_Click);
             // 
@@ -155,7 +155,7 @@ namespace UI_PTTKHT
             this.label32.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label32.Name = "label32";
             this.label32.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
-            this.label32.Size = new System.Drawing.Size(146, 39);
+            this.label32.Size = new System.Drawing.Size(178, 39);
             this.label32.TabIndex = 17;
             this.label32.Text = "Trang chủ";
             this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -168,9 +168,9 @@ namespace UI_PTTKHT
             this.label33.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label33.Name = "label33";
             this.label33.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
-            this.label33.Size = new System.Drawing.Size(146, 39);
+            this.label33.Size = new System.Drawing.Size(178, 39);
             this.label33.TabIndex = 18;
-            this.label33.Text = "Thông báo";
+            this.label33.Text = "Xem thông báo";
             this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label33.Click += new System.EventHandler(this.label33_Click);
             // 
@@ -181,9 +181,9 @@ namespace UI_PTTKHT
             this.label34.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label34.Name = "label34";
             this.label34.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
-            this.label34.Size = new System.Drawing.Size(146, 39);
+            this.label34.Size = new System.Drawing.Size(178, 39);
             this.label34.TabIndex = 19;
-            this.label34.Text = "Thông tin cá nhân";
+            this.label34.Text = "Xem thông tin cá nhân";
             this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label35
@@ -193,9 +193,9 @@ namespace UI_PTTKHT
             this.label35.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label35.Name = "label35";
             this.label35.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
-            this.label35.Size = new System.Drawing.Size(146, 39);
+            this.label35.Size = new System.Drawing.Size(178, 39);
             this.label35.TabIndex = 20;
-            this.label35.Text = "Thời khóa biểu";
+            this.label35.Text = "Xem lịch học";
             this.label35.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label35.Click += new System.EventHandler(this.label35_Click);
             // 
@@ -206,9 +206,9 @@ namespace UI_PTTKHT
             this.label36.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label36.Name = "label36";
             this.label36.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
-            this.label36.Size = new System.Drawing.Size(146, 39);
+            this.label36.Size = new System.Drawing.Size(178, 39);
             this.label36.TabIndex = 21;
-            this.label36.Text = "Kết quả học tập";
+            this.label36.Text = "Xem điểm số";
             this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label36.Click += new System.EventHandler(this.label36_Click);
             // 
@@ -237,6 +237,7 @@ namespace UI_PTTKHT
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.panel1.Controls.Add(this.lsbAdmin);
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.pictureBox1);
@@ -283,7 +284,7 @@ namespace UI_PTTKHT
             "Sửa",
             "Đổi Mật Khẩu",
             "Thoát"});
-            this.lsbAdmin.Location = new System.Drawing.Point(797, -3);
+            this.lsbAdmin.Location = new System.Drawing.Point(744, 2);
             this.lsbAdmin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lsbAdmin.Name = "lsbAdmin";
             this.lsbAdmin.Size = new System.Drawing.Size(120, 68);
@@ -296,9 +297,9 @@ namespace UI_PTTKHT
             this.panel4.Controls.Add(this.groupBox2);
             this.panel4.Controls.Add(this.groupBox1);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(154, 50);
+            this.panel4.Location = new System.Drawing.Point(185, 50);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(923, 592);
+            this.panel4.Size = new System.Drawing.Size(892, 592);
             this.panel4.TabIndex = 15;
             // 
             // groupBox2
@@ -348,7 +349,7 @@ namespace UI_PTTKHT
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(0, 253);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(923, 339);
+            this.groupBox2.Size = new System.Drawing.Size(892, 339);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Quan hệ gia đình";
@@ -377,7 +378,7 @@ namespace UI_PTTKHT
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(783, 265);
+            this.label21.Location = new System.Drawing.Point(771, 265);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(109, 20);
             this.label21.TabIndex = 61;
@@ -396,7 +397,7 @@ namespace UI_PTTKHT
             // 
             this.label56.AutoSize = true;
             this.label56.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label56.Location = new System.Drawing.Point(673, 265);
+            this.label56.Location = new System.Drawing.Point(661, 265);
             this.label56.Name = "label56";
             this.label56.Size = new System.Drawing.Size(106, 20);
             this.label56.TabIndex = 59;
@@ -435,7 +436,7 @@ namespace UI_PTTKHT
             // 
             this.label60.AutoSize = true;
             this.label60.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label60.Location = new System.Drawing.Point(783, 236);
+            this.label60.Location = new System.Drawing.Point(771, 236);
             this.label60.Name = "label60";
             this.label60.Size = new System.Drawing.Size(60, 20);
             this.label60.TabIndex = 56;
@@ -455,7 +456,7 @@ namespace UI_PTTKHT
             // 
             this.label62.AutoSize = true;
             this.label62.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label62.Location = new System.Drawing.Point(673, 236);
+            this.label62.Location = new System.Drawing.Point(661, 236);
             this.label62.Name = "label62";
             this.label62.Size = new System.Drawing.Size(74, 20);
             this.label62.TabIndex = 54;
@@ -495,7 +496,7 @@ namespace UI_PTTKHT
             // 
             this.label66.AutoSize = true;
             this.label66.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label66.Location = new System.Drawing.Point(783, 201);
+            this.label66.Location = new System.Drawing.Point(771, 201);
             this.label66.Name = "label66";
             this.label66.Size = new System.Drawing.Size(51, 20);
             this.label66.TabIndex = 51;
@@ -509,13 +510,13 @@ namespace UI_PTTKHT
             this.label67.Name = "label67";
             this.label67.Size = new System.Drawing.Size(49, 20);
             this.label67.TabIndex = 50;
-            this.label67.Text = "1973";
+            this.label67.Text = "1976";
             // 
             // label68
             // 
             this.label68.AutoSize = true;
             this.label68.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label68.Location = new System.Drawing.Point(673, 201);
+            this.label68.Location = new System.Drawing.Point(661, 201);
             this.label68.Name = "label68";
             this.label68.Size = new System.Drawing.Size(103, 20);
             this.label68.TabIndex = 48;
@@ -537,9 +538,9 @@ namespace UI_PTTKHT
             this.label70.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label70.Location = new System.Drawing.Point(172, 201);
             this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(119, 20);
+            this.label70.Size = new System.Drawing.Size(178, 20);
             this.label70.TabIndex = 47;
-            this.label70.Text = "Lê Văn Luyến";
+            this.label70.Text = "Nguyễn Thị Thu Thảo";
             // 
             // label71
             // 
@@ -547,9 +548,9 @@ namespace UI_PTTKHT
             this.label71.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label71.Location = new System.Drawing.Point(23, 201);
             this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(94, 20);
+            this.label71.Size = new System.Drawing.Size(87, 20);
             this.label71.TabIndex = 46;
-            this.label71.Text = "Họ tên Cha:";
+            this.label71.Text = "Họ tên Mẹ:";
             // 
             // label19
             // 
@@ -575,7 +576,7 @@ namespace UI_PTTKHT
             // 
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(783, 108);
+            this.label23.Location = new System.Drawing.Point(771, 108);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(109, 20);
             this.label23.TabIndex = 38;
@@ -594,7 +595,7 @@ namespace UI_PTTKHT
             // 
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(673, 108);
+            this.label25.Location = new System.Drawing.Point(661, 108);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(106, 20);
             this.label25.TabIndex = 36;
@@ -633,7 +634,7 @@ namespace UI_PTTKHT
             // 
             this.label44.AutoSize = true;
             this.label44.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label44.Location = new System.Drawing.Point(783, 79);
+            this.label44.Location = new System.Drawing.Point(771, 79);
             this.label44.Name = "label44";
             this.label44.Size = new System.Drawing.Size(60, 20);
             this.label44.TabIndex = 33;
@@ -653,7 +654,7 @@ namespace UI_PTTKHT
             // 
             this.label46.AutoSize = true;
             this.label46.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label46.Location = new System.Drawing.Point(673, 79);
+            this.label46.Location = new System.Drawing.Point(661, 79);
             this.label46.Name = "label46";
             this.label46.Size = new System.Drawing.Size(74, 20);
             this.label46.TabIndex = 31;
@@ -693,7 +694,7 @@ namespace UI_PTTKHT
             // 
             this.label50.AutoSize = true;
             this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label50.Location = new System.Drawing.Point(783, 44);
+            this.label50.Location = new System.Drawing.Point(771, 44);
             this.label50.Name = "label50";
             this.label50.Size = new System.Drawing.Size(51, 20);
             this.label50.TabIndex = 28;
@@ -713,7 +714,7 @@ namespace UI_PTTKHT
             // 
             this.label52.AutoSize = true;
             this.label52.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label52.Location = new System.Drawing.Point(673, 44);
+            this.label52.Location = new System.Drawing.Point(661, 44);
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(103, 20);
             this.label52.TabIndex = 25;
@@ -752,7 +753,6 @@ namespace UI_PTTKHT
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.White;
-            this.groupBox1.Controls.Add(this.lsbAdmin);
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Controls.Add(this.label9);
@@ -783,7 +783,7 @@ namespace UI_PTTKHT
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(923, 253);
+            this.groupBox1.Size = new System.Drawing.Size(892, 253);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin cá nhân";
@@ -792,7 +792,7 @@ namespace UI_PTTKHT
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.button1.ForeColor = System.Drawing.Color.Silver;
-            this.button1.Location = new System.Drawing.Point(741, 3);
+            this.button1.Location = new System.Drawing.Point(710, 3);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(179, 36);
             this.button1.TabIndex = 23;
@@ -864,7 +864,7 @@ namespace UI_PTTKHT
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(780, 137);
+            this.label16.Location = new System.Drawing.Point(768, 137);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(109, 20);
             this.label16.TabIndex = 17;
@@ -884,7 +884,7 @@ namespace UI_PTTKHT
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(670, 137);
+            this.label15.Location = new System.Drawing.Point(658, 137);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(106, 20);
             this.label15.TabIndex = 16;
@@ -924,7 +924,7 @@ namespace UI_PTTKHT
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(780, 95);
+            this.label14.Location = new System.Drawing.Point(768, 95);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(60, 20);
             this.label14.TabIndex = 14;
@@ -944,7 +944,7 @@ namespace UI_PTTKHT
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(670, 95);
+            this.label13.Location = new System.Drawing.Point(658, 95);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(74, 20);
             this.label13.TabIndex = 13;
@@ -984,7 +984,7 @@ namespace UI_PTTKHT
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(780, 48);
+            this.label12.Location = new System.Drawing.Point(768, 48);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(44, 20);
             this.label12.TabIndex = 10;
@@ -1004,7 +1004,7 @@ namespace UI_PTTKHT
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(670, 48);
+            this.label11.Location = new System.Drawing.Point(658, 48);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(69, 20);
             this.label11.TabIndex = 9;

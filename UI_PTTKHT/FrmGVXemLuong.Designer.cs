@@ -179,6 +179,7 @@ namespace UI_PTTKHT
             // 
             // flowLayoutPanel1
             // 
+            this.flowLayoutPanel1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.flowLayoutPanel1.Controls.Add(this.label13);
             this.flowLayoutPanel1.Controls.Add(this.label8);
             this.flowLayoutPanel1.Controls.Add(this.label10);
@@ -191,7 +192,7 @@ namespace UI_PTTKHT
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 50);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(159, 592);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(173, 592);
             this.flowLayoutPanel1.TabIndex = 18;
             this.flowLayoutPanel1.Click += new System.EventHandler(this.flowLayoutPanel1_Click);
             // 
@@ -202,7 +203,7 @@ namespace UI_PTTKHT
             this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
             this.label13.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
-            this.label13.Size = new System.Drawing.Size(143, 39);
+            this.label13.Size = new System.Drawing.Size(162, 39);
             this.label13.TabIndex = 19;
             this.label13.Text = "Trang chủ";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -215,9 +216,9 @@ namespace UI_PTTKHT
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
             this.label8.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
-            this.label8.Size = new System.Drawing.Size(143, 39);
+            this.label8.Size = new System.Drawing.Size(162, 39);
             this.label8.TabIndex = 20;
-            this.label8.Text = "Thông báo";
+            this.label8.Text = "Xem thông báo";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
@@ -228,9 +229,9 @@ namespace UI_PTTKHT
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
             this.label10.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
-            this.label10.Size = new System.Drawing.Size(143, 39);
+            this.label10.Size = new System.Drawing.Size(162, 39);
             this.label10.TabIndex = 21;
-            this.label10.Text = "Thông tin cá nhân";
+            this.label10.Text = "Xem thông tin cá nhân";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
@@ -241,7 +242,7 @@ namespace UI_PTTKHT
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
             this.label12.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
-            this.label12.Size = new System.Drawing.Size(143, 39);
+            this.label12.Size = new System.Drawing.Size(162, 39);
             this.label12.TabIndex = 22;
             this.label12.Text = "Xem lịch dạy";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -254,7 +255,7 @@ namespace UI_PTTKHT
             this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
             this.label14.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
-            this.label14.Size = new System.Drawing.Size(143, 39);
+            this.label14.Size = new System.Drawing.Size(162, 39);
             this.label14.TabIndex = 23;
             this.label14.Text = "Xem bảng lương";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -266,7 +267,7 @@ namespace UI_PTTKHT
             this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
             this.label15.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
-            this.label15.Size = new System.Drawing.Size(143, 39);
+            this.label15.Size = new System.Drawing.Size(162, 39);
             this.label15.TabIndex = 24;
             this.label15.Text = "Quản lý điểm số";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -279,9 +280,9 @@ namespace UI_PTTKHT
             this.label67.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label67.Name = "label67";
             this.label67.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
-            this.label67.Size = new System.Drawing.Size(143, 39);
+            this.label67.Size = new System.Drawing.Size(162, 39);
             this.label67.TabIndex = 25;
-            this.label67.Text = "Danh sách lớp";
+            this.label67.Text = "Xem danh sách lớp";
             this.label67.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label67.Click += new System.EventHandler(this.label67_Click);
             // 
@@ -294,7 +295,7 @@ namespace UI_PTTKHT
             "Sửa",
             "Đổi Mật Khẩu",
             "Thoát"});
-            this.lsbAdmin.Location = new System.Drawing.Point(779, 0);
+            this.lsbAdmin.Location = new System.Drawing.Point(765, 0);
             this.lsbAdmin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lsbAdmin.Name = "lsbAdmin";
             this.lsbAdmin.Size = new System.Drawing.Size(127, 68);
@@ -307,10 +308,10 @@ namespace UI_PTTKHT
             this.panel2.Controls.Add(this.tableLayoutPanel1);
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(159, 50);
+            this.panel2.Location = new System.Drawing.Point(173, 50);
             this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(918, 592);
+            this.panel2.Size = new System.Drawing.Size(904, 592);
             this.panel2.TabIndex = 20;
             // 
             // tableLayoutPanel1
@@ -406,7 +407,7 @@ namespace UI_PTTKHT
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(918, 513);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(904, 513);
             this.tableLayoutPanel1.TabIndex = 22;
             this.tableLayoutPanel1.Click += new System.EventHandler(this.tableLayoutPanel1_Click);
             // 
@@ -414,7 +415,7 @@ namespace UI_PTTKHT
             // 
             this.label65.AutoSize = true;
             this.label65.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label65.Location = new System.Drawing.Point(803, 176);
+            this.label65.Location = new System.Drawing.Point(789, 176);
             this.label65.Name = "label65";
             this.label65.Size = new System.Drawing.Size(110, 23);
             this.label65.TabIndex = 55;
@@ -425,9 +426,9 @@ namespace UI_PTTKHT
             // 
             this.label64.AutoSize = true;
             this.label64.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label64.Location = new System.Drawing.Point(689, 176);
+            this.label64.Location = new System.Drawing.Point(677, 176);
             this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(106, 23);
+            this.label64.Size = new System.Drawing.Size(104, 23);
             this.label64.TabIndex = 54;
             this.label64.Text = "10%";
             this.label64.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -436,9 +437,9 @@ namespace UI_PTTKHT
             // 
             this.label63.AutoSize = true;
             this.label63.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label63.Location = new System.Drawing.Point(575, 176);
+            this.label63.Location = new System.Drawing.Point(565, 176);
             this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(106, 23);
+            this.label63.Size = new System.Drawing.Size(104, 23);
             this.label63.TabIndex = 53;
             this.label63.Text = "110.000";
             this.label63.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -447,9 +448,9 @@ namespace UI_PTTKHT
             // 
             this.label62.AutoSize = true;
             this.label62.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label62.Location = new System.Drawing.Point(461, 176);
+            this.label62.Location = new System.Drawing.Point(453, 176);
             this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(106, 23);
+            this.label62.Size = new System.Drawing.Size(104, 23);
             this.label62.TabIndex = 52;
             this.label62.Text = "1.500.000";
             this.label62.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -458,9 +459,9 @@ namespace UI_PTTKHT
             // 
             this.label61.AutoSize = true;
             this.label61.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label61.Location = new System.Drawing.Point(347, 176);
+            this.label61.Location = new System.Drawing.Point(341, 176);
             this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(106, 23);
+            this.label61.Size = new System.Drawing.Size(104, 23);
             this.label61.TabIndex = 51;
             this.label61.Text = "200.000";
             this.label61.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -469,9 +470,9 @@ namespace UI_PTTKHT
             // 
             this.label60.AutoSize = true;
             this.label60.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label60.Location = new System.Drawing.Point(233, 176);
+            this.label60.Location = new System.Drawing.Point(229, 176);
             this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(106, 23);
+            this.label60.Size = new System.Drawing.Size(104, 23);
             this.label60.TabIndex = 50;
             this.label60.Text = "9.000.000";
             this.label60.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -480,9 +481,9 @@ namespace UI_PTTKHT
             // 
             this.label59.AutoSize = true;
             this.label59.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label59.Location = new System.Drawing.Point(119, 176);
+            this.label59.Location = new System.Drawing.Point(117, 176);
             this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(106, 23);
+            this.label59.Size = new System.Drawing.Size(104, 23);
             this.label59.TabIndex = 49;
             this.label59.Text = "122";
             this.label59.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -493,7 +494,7 @@ namespace UI_PTTKHT
             this.label58.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label58.Location = new System.Drawing.Point(5, 176);
             this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(106, 23);
+            this.label58.Size = new System.Drawing.Size(104, 23);
             this.label58.TabIndex = 48;
             this.label58.Text = "Tháng 6";
             this.label58.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -502,7 +503,7 @@ namespace UI_PTTKHT
             // 
             this.label57.AutoSize = true;
             this.label57.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label57.Location = new System.Drawing.Point(803, 151);
+            this.label57.Location = new System.Drawing.Point(789, 151);
             this.label57.Name = "label57";
             this.label57.Size = new System.Drawing.Size(110, 23);
             this.label57.TabIndex = 47;
@@ -513,9 +514,9 @@ namespace UI_PTTKHT
             // 
             this.label56.AutoSize = true;
             this.label56.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label56.Location = new System.Drawing.Point(689, 151);
+            this.label56.Location = new System.Drawing.Point(677, 151);
             this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(106, 23);
+            this.label56.Size = new System.Drawing.Size(104, 23);
             this.label56.TabIndex = 46;
             this.label56.Text = "10%";
             this.label56.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -524,9 +525,9 @@ namespace UI_PTTKHT
             // 
             this.label55.AutoSize = true;
             this.label55.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label55.Location = new System.Drawing.Point(575, 151);
+            this.label55.Location = new System.Drawing.Point(565, 151);
             this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(106, 23);
+            this.label55.Size = new System.Drawing.Size(104, 23);
             this.label55.TabIndex = 45;
             this.label55.Text = "110.000";
             this.label55.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -535,9 +536,9 @@ namespace UI_PTTKHT
             // 
             this.label54.AutoSize = true;
             this.label54.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label54.Location = new System.Drawing.Point(461, 151);
+            this.label54.Location = new System.Drawing.Point(453, 151);
             this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(106, 23);
+            this.label54.Size = new System.Drawing.Size(104, 23);
             this.label54.TabIndex = 44;
             this.label54.Text = "1.500.000";
             this.label54.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -546,9 +547,9 @@ namespace UI_PTTKHT
             // 
             this.label53.AutoSize = true;
             this.label53.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label53.Location = new System.Drawing.Point(347, 151);
+            this.label53.Location = new System.Drawing.Point(341, 151);
             this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(106, 23);
+            this.label53.Size = new System.Drawing.Size(104, 23);
             this.label53.TabIndex = 43;
             this.label53.Text = "200.000";
             this.label53.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -557,9 +558,9 @@ namespace UI_PTTKHT
             // 
             this.label52.AutoSize = true;
             this.label52.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label52.Location = new System.Drawing.Point(233, 151);
+            this.label52.Location = new System.Drawing.Point(229, 151);
             this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(106, 23);
+            this.label52.Size = new System.Drawing.Size(104, 23);
             this.label52.TabIndex = 42;
             this.label52.Text = "9.000.000";
             this.label52.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -568,9 +569,9 @@ namespace UI_PTTKHT
             // 
             this.label51.AutoSize = true;
             this.label51.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label51.Location = new System.Drawing.Point(119, 151);
+            this.label51.Location = new System.Drawing.Point(117, 151);
             this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(106, 23);
+            this.label51.Size = new System.Drawing.Size(104, 23);
             this.label51.TabIndex = 41;
             this.label51.Text = "110";
             this.label51.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -581,7 +582,7 @@ namespace UI_PTTKHT
             this.label50.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label50.Location = new System.Drawing.Point(5, 151);
             this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(106, 23);
+            this.label50.Size = new System.Drawing.Size(104, 23);
             this.label50.TabIndex = 40;
             this.label50.Text = "Tháng 5";
             this.label50.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -590,7 +591,7 @@ namespace UI_PTTKHT
             // 
             this.label49.AutoSize = true;
             this.label49.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label49.Location = new System.Drawing.Point(803, 126);
+            this.label49.Location = new System.Drawing.Point(789, 126);
             this.label49.Name = "label49";
             this.label49.Size = new System.Drawing.Size(110, 23);
             this.label49.TabIndex = 39;
@@ -601,9 +602,9 @@ namespace UI_PTTKHT
             // 
             this.label48.AutoSize = true;
             this.label48.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label48.Location = new System.Drawing.Point(689, 126);
+            this.label48.Location = new System.Drawing.Point(677, 126);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(106, 23);
+            this.label48.Size = new System.Drawing.Size(104, 23);
             this.label48.TabIndex = 38;
             this.label48.Text = "10%";
             this.label48.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -612,9 +613,9 @@ namespace UI_PTTKHT
             // 
             this.label47.AutoSize = true;
             this.label47.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label47.Location = new System.Drawing.Point(575, 126);
+            this.label47.Location = new System.Drawing.Point(565, 126);
             this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(106, 23);
+            this.label47.Size = new System.Drawing.Size(104, 23);
             this.label47.TabIndex = 37;
             this.label47.Text = "110.000";
             this.label47.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -623,9 +624,9 @@ namespace UI_PTTKHT
             // 
             this.label46.AutoSize = true;
             this.label46.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label46.Location = new System.Drawing.Point(461, 126);
+            this.label46.Location = new System.Drawing.Point(453, 126);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(106, 23);
+            this.label46.Size = new System.Drawing.Size(104, 23);
             this.label46.TabIndex = 36;
             this.label46.Text = "1.500.000";
             this.label46.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -634,9 +635,9 @@ namespace UI_PTTKHT
             // 
             this.label45.AutoSize = true;
             this.label45.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label45.Location = new System.Drawing.Point(347, 126);
+            this.label45.Location = new System.Drawing.Point(341, 126);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(106, 23);
+            this.label45.Size = new System.Drawing.Size(104, 23);
             this.label45.TabIndex = 35;
             this.label45.Text = "200.000";
             this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -645,9 +646,9 @@ namespace UI_PTTKHT
             // 
             this.label44.AutoSize = true;
             this.label44.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label44.Location = new System.Drawing.Point(233, 126);
+            this.label44.Location = new System.Drawing.Point(229, 126);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(106, 23);
+            this.label44.Size = new System.Drawing.Size(104, 23);
             this.label44.TabIndex = 34;
             this.label44.Text = "9.000.000";
             this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -656,9 +657,9 @@ namespace UI_PTTKHT
             // 
             this.label43.AutoSize = true;
             this.label43.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label43.Location = new System.Drawing.Point(119, 126);
+            this.label43.Location = new System.Drawing.Point(117, 126);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(106, 23);
+            this.label43.Size = new System.Drawing.Size(104, 23);
             this.label43.TabIndex = 33;
             this.label43.Text = "125";
             this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -667,7 +668,7 @@ namespace UI_PTTKHT
             // 
             this.label41.AutoSize = true;
             this.label41.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label41.Location = new System.Drawing.Point(803, 101);
+            this.label41.Location = new System.Drawing.Point(789, 101);
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(110, 23);
             this.label41.TabIndex = 31;
@@ -678,9 +679,9 @@ namespace UI_PTTKHT
             // 
             this.label40.AutoSize = true;
             this.label40.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label40.Location = new System.Drawing.Point(689, 101);
+            this.label40.Location = new System.Drawing.Point(677, 101);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(106, 23);
+            this.label40.Size = new System.Drawing.Size(104, 23);
             this.label40.TabIndex = 30;
             this.label40.Text = "10%";
             this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -689,9 +690,9 @@ namespace UI_PTTKHT
             // 
             this.label39.AutoSize = true;
             this.label39.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label39.Location = new System.Drawing.Point(575, 101);
+            this.label39.Location = new System.Drawing.Point(565, 101);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(106, 23);
+            this.label39.Size = new System.Drawing.Size(104, 23);
             this.label39.TabIndex = 29;
             this.label39.Text = "100.000";
             this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -700,9 +701,9 @@ namespace UI_PTTKHT
             // 
             this.label38.AutoSize = true;
             this.label38.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label38.Location = new System.Drawing.Point(461, 101);
+            this.label38.Location = new System.Drawing.Point(453, 101);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(106, 23);
+            this.label38.Size = new System.Drawing.Size(104, 23);
             this.label38.TabIndex = 28;
             this.label38.Text = "1.000.000";
             this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -711,9 +712,9 @@ namespace UI_PTTKHT
             // 
             this.label37.AutoSize = true;
             this.label37.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label37.Location = new System.Drawing.Point(347, 101);
+            this.label37.Location = new System.Drawing.Point(341, 101);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(106, 23);
+            this.label37.Size = new System.Drawing.Size(104, 23);
             this.label37.TabIndex = 27;
             this.label37.Text = "200.000";
             this.label37.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -722,9 +723,9 @@ namespace UI_PTTKHT
             // 
             this.label36.AutoSize = true;
             this.label36.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label36.Location = new System.Drawing.Point(233, 101);
+            this.label36.Location = new System.Drawing.Point(229, 101);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(106, 23);
+            this.label36.Size = new System.Drawing.Size(104, 23);
             this.label36.TabIndex = 26;
             this.label36.Text = "9.000.000";
             this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -733,9 +734,9 @@ namespace UI_PTTKHT
             // 
             this.label35.AutoSize = true;
             this.label35.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label35.Location = new System.Drawing.Point(119, 101);
+            this.label35.Location = new System.Drawing.Point(117, 101);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(106, 23);
+            this.label35.Size = new System.Drawing.Size(104, 23);
             this.label35.TabIndex = 25;
             this.label35.Text = "105";
             this.label35.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -746,7 +747,7 @@ namespace UI_PTTKHT
             this.label34.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label34.Location = new System.Drawing.Point(5, 101);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(106, 23);
+            this.label34.Size = new System.Drawing.Size(104, 23);
             this.label34.TabIndex = 24;
             this.label34.Text = "Tháng 3";
             this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -755,7 +756,7 @@ namespace UI_PTTKHT
             // 
             this.label33.AutoSize = true;
             this.label33.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label33.Location = new System.Drawing.Point(803, 76);
+            this.label33.Location = new System.Drawing.Point(789, 76);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(110, 23);
             this.label33.TabIndex = 23;
@@ -766,9 +767,9 @@ namespace UI_PTTKHT
             // 
             this.label32.AutoSize = true;
             this.label32.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label32.Location = new System.Drawing.Point(689, 76);
+            this.label32.Location = new System.Drawing.Point(677, 76);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(106, 23);
+            this.label32.Size = new System.Drawing.Size(104, 23);
             this.label32.TabIndex = 22;
             this.label32.Text = "10%";
             this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -777,9 +778,9 @@ namespace UI_PTTKHT
             // 
             this.label31.AutoSize = true;
             this.label31.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label31.Location = new System.Drawing.Point(575, 76);
+            this.label31.Location = new System.Drawing.Point(565, 76);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(106, 23);
+            this.label31.Size = new System.Drawing.Size(104, 23);
             this.label31.TabIndex = 21;
             this.label31.Text = "100.000";
             this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -788,9 +789,9 @@ namespace UI_PTTKHT
             // 
             this.label30.AutoSize = true;
             this.label30.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label30.Location = new System.Drawing.Point(461, 76);
+            this.label30.Location = new System.Drawing.Point(453, 76);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(106, 23);
+            this.label30.Size = new System.Drawing.Size(104, 23);
             this.label30.TabIndex = 20;
             this.label30.Text = "1.000.000";
             this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -799,9 +800,9 @@ namespace UI_PTTKHT
             // 
             this.label29.AutoSize = true;
             this.label29.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label29.Location = new System.Drawing.Point(347, 76);
+            this.label29.Location = new System.Drawing.Point(341, 76);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(106, 23);
+            this.label29.Size = new System.Drawing.Size(104, 23);
             this.label29.TabIndex = 19;
             this.label29.Text = "200.000";
             this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -810,9 +811,9 @@ namespace UI_PTTKHT
             // 
             this.label28.AutoSize = true;
             this.label28.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label28.Location = new System.Drawing.Point(233, 76);
+            this.label28.Location = new System.Drawing.Point(229, 76);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(106, 23);
+            this.label28.Size = new System.Drawing.Size(104, 23);
             this.label28.TabIndex = 18;
             this.label28.Text = "9.000.000";
             this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -821,9 +822,9 @@ namespace UI_PTTKHT
             // 
             this.label27.AutoSize = true;
             this.label27.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label27.Location = new System.Drawing.Point(119, 76);
+            this.label27.Location = new System.Drawing.Point(117, 76);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(106, 23);
+            this.label27.Size = new System.Drawing.Size(104, 23);
             this.label27.TabIndex = 17;
             this.label27.Text = "110";
             this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -834,7 +835,7 @@ namespace UI_PTTKHT
             this.label26.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label26.Location = new System.Drawing.Point(5, 76);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(106, 23);
+            this.label26.Size = new System.Drawing.Size(104, 23);
             this.label26.TabIndex = 16;
             this.label26.Text = "Tháng 2";
             this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -843,7 +844,7 @@ namespace UI_PTTKHT
             // 
             this.label25.AutoSize = true;
             this.label25.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label25.Location = new System.Drawing.Point(803, 51);
+            this.label25.Location = new System.Drawing.Point(789, 51);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(110, 23);
             this.label25.TabIndex = 15;
@@ -854,9 +855,9 @@ namespace UI_PTTKHT
             // 
             this.label24.AutoSize = true;
             this.label24.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label24.Location = new System.Drawing.Point(689, 51);
+            this.label24.Location = new System.Drawing.Point(677, 51);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(106, 23);
+            this.label24.Size = new System.Drawing.Size(104, 23);
             this.label24.TabIndex = 14;
             this.label24.Text = "10%";
             this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -865,9 +866,9 @@ namespace UI_PTTKHT
             // 
             this.label23.AutoSize = true;
             this.label23.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label23.Location = new System.Drawing.Point(575, 51);
+            this.label23.Location = new System.Drawing.Point(565, 51);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(106, 23);
+            this.label23.Size = new System.Drawing.Size(104, 23);
             this.label23.TabIndex = 13;
             this.label23.Text = "100.000";
             this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -876,9 +877,9 @@ namespace UI_PTTKHT
             // 
             this.label22.AutoSize = true;
             this.label22.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label22.Location = new System.Drawing.Point(461, 51);
+            this.label22.Location = new System.Drawing.Point(453, 51);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(106, 23);
+            this.label22.Size = new System.Drawing.Size(104, 23);
             this.label22.TabIndex = 12;
             this.label22.Text = "1.000.000";
             this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -887,9 +888,9 @@ namespace UI_PTTKHT
             // 
             this.label21.AutoSize = true;
             this.label21.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label21.Location = new System.Drawing.Point(347, 51);
+            this.label21.Location = new System.Drawing.Point(341, 51);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(106, 23);
+            this.label21.Size = new System.Drawing.Size(104, 23);
             this.label21.TabIndex = 11;
             this.label21.Text = "200.000";
             this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -898,9 +899,9 @@ namespace UI_PTTKHT
             // 
             this.label19.AutoSize = true;
             this.label19.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label19.Location = new System.Drawing.Point(233, 51);
+            this.label19.Location = new System.Drawing.Point(229, 51);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(106, 23);
+            this.label19.Size = new System.Drawing.Size(104, 23);
             this.label19.TabIndex = 10;
             this.label19.Text = "9.000.000";
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -909,9 +910,9 @@ namespace UI_PTTKHT
             // 
             this.label18.AutoSize = true;
             this.label18.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label18.Location = new System.Drawing.Point(119, 51);
+            this.label18.Location = new System.Drawing.Point(117, 51);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(106, 23);
+            this.label18.Size = new System.Drawing.Size(104, 23);
             this.label18.TabIndex = 9;
             this.label18.Text = "110";
             this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -922,7 +923,7 @@ namespace UI_PTTKHT
             this.label17.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label17.Location = new System.Drawing.Point(5, 51);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(106, 23);
+            this.label17.Size = new System.Drawing.Size(104, 23);
             this.label17.TabIndex = 8;
             this.label17.Text = "Tháng 1";
             this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -933,7 +934,7 @@ namespace UI_PTTKHT
             this.label16.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.label16.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(803, 2);
+            this.label16.Location = new System.Drawing.Point(789, 2);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(110, 47);
             this.label16.TabIndex = 7;
@@ -946,9 +947,9 @@ namespace UI_PTTKHT
             this.label11.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.label11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(689, 2);
+            this.label11.Location = new System.Drawing.Point(677, 2);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(106, 47);
+            this.label11.Size = new System.Drawing.Size(104, 47);
             this.label11.TabIndex = 6;
             this.label11.Text = "Thuế";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -959,9 +960,9 @@ namespace UI_PTTKHT
             this.label9.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.label9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(575, 2);
+            this.label9.Location = new System.Drawing.Point(565, 2);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(106, 47);
+            this.label9.Size = new System.Drawing.Size(104, 47);
             this.label9.TabIndex = 5;
             this.label9.Text = "BHYT";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -972,9 +973,9 @@ namespace UI_PTTKHT
             this.label6.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(461, 2);
+            this.label6.Location = new System.Drawing.Point(453, 2);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(106, 47);
+            this.label6.Size = new System.Drawing.Size(104, 47);
             this.label6.TabIndex = 4;
             this.label6.Text = "Thâm niên";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -985,9 +986,9 @@ namespace UI_PTTKHT
             this.label5.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(347, 2);
+            this.label5.Location = new System.Drawing.Point(341, 2);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(106, 47);
+            this.label5.Size = new System.Drawing.Size(104, 47);
             this.label5.TabIndex = 3;
             this.label5.Text = "PC xăng xe";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -998,9 +999,9 @@ namespace UI_PTTKHT
             this.label4.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(233, 2);
+            this.label4.Location = new System.Drawing.Point(229, 2);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(106, 47);
+            this.label4.Size = new System.Drawing.Size(104, 47);
             this.label4.TabIndex = 2;
             this.label4.Text = "Lương cơ bản";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1011,9 +1012,9 @@ namespace UI_PTTKHT
             this.label3.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(119, 2);
+            this.label3.Location = new System.Drawing.Point(117, 2);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(106, 47);
+            this.label3.Size = new System.Drawing.Size(104, 47);
             this.label3.TabIndex = 1;
             this.label3.Text = "Số tiết dạy";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1026,7 +1027,7 @@ namespace UI_PTTKHT
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(5, 2);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(106, 47);
+            this.label2.Size = new System.Drawing.Size(104, 47);
             this.label2.TabIndex = 0;
             this.label2.Text = "Tháng lương";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1037,7 +1038,7 @@ namespace UI_PTTKHT
             this.label42.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label42.Location = new System.Drawing.Point(5, 126);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(106, 23);
+            this.label42.Size = new System.Drawing.Size(104, 23);
             this.label42.TabIndex = 32;
             this.label42.Text = "Tháng 4";
             this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1053,7 +1054,7 @@ namespace UI_PTTKHT
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(918, 76);
+            this.panel3.Size = new System.Drawing.Size(904, 76);
             this.panel3.TabIndex = 21;
             this.panel3.Click += new System.EventHandler(this.panel3_Click);
             // 
@@ -1080,7 +1081,7 @@ namespace UI_PTTKHT
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Gray;
-            this.button1.Location = new System.Drawing.Point(761, 38);
+            this.button1.Location = new System.Drawing.Point(752, 39);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(145, 31);

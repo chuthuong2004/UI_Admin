@@ -103,7 +103,7 @@ namespace UI_PTTKHT
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(159, 591);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(174, 591);
             this.flowLayoutPanel1.TabIndex = 0;
             this.flowLayoutPanel1.Click += new System.EventHandler(this.flowLayoutPanel1_Click);
             // 
@@ -124,7 +124,7 @@ namespace UI_PTTKHT
             this.lblThongBaoChung.Name = "lblThongBaoChung";
             this.lblThongBaoChung.Size = new System.Drawing.Size(153, 26);
             this.lblThongBaoChung.TabIndex = 0;
-            this.lblThongBaoChung.Text = "Thông báo chung";
+            this.lblThongBaoChung.Text = "Xem thông báo chung";
             this.lblThongBaoChung.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblThongBaoChung.Click += new System.EventHandler(this.lblThongBaoChung_Click);
             // 
@@ -133,9 +133,9 @@ namespace UI_PTTKHT
             this.lblThongTinTruong.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblThongTinTruong.Location = new System.Drawing.Point(3, 52);
             this.lblThongTinTruong.Name = "lblThongTinTruong";
-            this.lblThongTinTruong.Size = new System.Drawing.Size(153, 26);
+            this.lblThongTinTruong.Size = new System.Drawing.Size(169, 26);
             this.lblThongTinTruong.TabIndex = 0;
-            this.lblThongTinTruong.Text = "Thông tin trường";
+            this.lblThongTinTruong.Text = "Quản lý thông tin trường";
             this.lblThongTinTruong.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblQuanLyTruongHoc
@@ -210,7 +210,7 @@ namespace UI_PTTKHT
             this.lblThongBao.Name = "lblThongBao";
             this.lblThongBao.Size = new System.Drawing.Size(153, 26);
             this.lblThongBao.TabIndex = 0;
-            this.lblThongBao.Text = "Thông báo";
+            this.lblThongBao.Text = "Xem thông báo";
             this.lblThongBao.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblThongBao.Visible = false;
             this.lblThongBao.Click += new System.EventHandler(this.lblThongBao_Click);
@@ -330,7 +330,7 @@ namespace UI_PTTKHT
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 51);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(159, 591);
+            this.panel2.Size = new System.Drawing.Size(174, 591);
             this.panel2.TabIndex = 7;
             // 
             // label1
@@ -399,9 +399,9 @@ namespace UI_PTTKHT
             this.panel3.Controls.Add(this.lsbAdmin);
             this.panel3.Cursor = System.Windows.Forms.Cursors.Default;
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(159, 51);
+            this.panel3.Location = new System.Drawing.Point(174, 51);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(918, 591);
+            this.panel3.Size = new System.Drawing.Size(903, 591);
             this.panel3.TabIndex = 8;
             this.panel3.Click += new System.EventHandler(this.panel3_Click);
             // 

@@ -256,9 +256,9 @@ namespace UI_PTTKHT
             this.lblThongBáoChung.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblThongBáoChung.Location = new System.Drawing.Point(3, 26);
             this.lblThongBáoChung.Name = "lblThongBáoChung";
-            this.lblThongBáoChung.Size = new System.Drawing.Size(153, 26);
+            this.lblThongBáoChung.Size = new System.Drawing.Size(156, 26);
             this.lblThongBáoChung.TabIndex = 0;
-            this.lblThongBáoChung.Text = "Thông báo chung";
+            this.lblThongBáoChung.Text = "Xem thông báo chung";
             this.lblThongBáoChung.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblThongTinTruong
@@ -267,7 +267,7 @@ namespace UI_PTTKHT
             this.lblThongTinTruong.Name = "lblThongTinTruong";
             this.lblThongTinTruong.Size = new System.Drawing.Size(153, 26);
             this.lblThongTinTruong.TabIndex = 0;
-            this.lblThongTinTruong.Text = "Thông tin trường";
+            this.lblThongTinTruong.Text = "Quản lý thông tin trường";
             this.lblThongTinTruong.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblThongTinTruong.Click += new System.EventHandler(this.lblThongTinTruong_Click);
             // 
@@ -343,7 +343,7 @@ namespace UI_PTTKHT
             this.lblThongBao.Name = "lblThongBao";
             this.lblThongBao.Size = new System.Drawing.Size(153, 26);
             this.lblThongBao.TabIndex = 0;
-            this.lblThongBao.Text = "Thông báo";
+            this.lblThongBao.Text = "Xem thông báo";
             this.lblThongBao.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblThongBao.Visible = false;
             this.lblThongBao.Click += new System.EventHandler(this.lblThongBao_Click);

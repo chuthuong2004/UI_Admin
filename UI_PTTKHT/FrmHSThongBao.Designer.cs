@@ -75,7 +75,7 @@ namespace UI_PTTKHT
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 50);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(159, 592);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(165, 592);
             this.flowLayoutPanel1.TabIndex = 15;
             this.flowLayoutPanel1.Click += new System.EventHandler(this.flowLayoutPanel1_Click);
             // 
@@ -101,7 +101,7 @@ namespace UI_PTTKHT
             this.label8.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
             this.label8.Size = new System.Drawing.Size(155, 39);
             this.label8.TabIndex = 13;
-            this.label8.Text = "Thông báo";
+            this.label8.Text = "Xem thông báo";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
@@ -114,7 +114,7 @@ namespace UI_PTTKHT
             this.label10.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
             this.label10.Size = new System.Drawing.Size(155, 39);
             this.label10.TabIndex = 14;
-            this.label10.Text = "Thông tin cá nhân";
+            this.label10.Text = "Xem thông tin cá nhân";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
@@ -127,7 +127,7 @@ namespace UI_PTTKHT
             this.label12.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
             this.label12.Size = new System.Drawing.Size(155, 39);
             this.label12.TabIndex = 15;
-            this.label12.Text = "Thời khóa biểu";
+            this.label12.Text = "Xem lịch học";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
@@ -140,7 +140,7 @@ namespace UI_PTTKHT
             this.label14.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
             this.label14.Size = new System.Drawing.Size(155, 39);
             this.label14.TabIndex = 16;
-            this.label14.Text = "Kết quả học tập";
+            this.label14.Text = "Xem điểm số";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
@@ -300,7 +300,7 @@ namespace UI_PTTKHT
             this.panel4.Location = new System.Drawing.Point(0, 78);
             this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(917, 513);
+            this.panel4.Size = new System.Drawing.Size(910, 513);
             this.panel4.TabIndex = 8;
             // 
             // groupBox1
@@ -317,7 +317,7 @@ namespace UI_PTTKHT
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox1.Size = new System.Drawing.Size(917, 513);
+            this.groupBox1.Size = new System.Drawing.Size(910, 513);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             // 
@@ -365,10 +365,10 @@ namespace UI_PTTKHT
             this.panel3.Controls.Add(this.button2);
             this.panel3.Controls.Add(this.dateTimePicker1);
             this.panel3.Cursor = System.Windows.Forms.Cursors.Default;
-            this.panel3.Location = new System.Drawing.Point(159, 50);
+            this.panel3.Location = new System.Drawing.Point(166, 50);
             this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(917, 591);
+            this.panel3.Size = new System.Drawing.Size(910, 591);
             this.panel3.TabIndex = 14;
             this.panel3.Click += new System.EventHandler(this.panel3_Click);
             // 
