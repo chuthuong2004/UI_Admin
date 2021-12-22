@@ -155,9 +155,64 @@ namespace UI_PTTKHT
             MessageBox.Show("Chức năng chỉnh sửa điểm đang bảo trì !");
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Chức năng thêm thông tin điểm đang bảo trì !");
+            FrmGVCTNhapDiem frmGVCTNhapDiem = new FrmGVCTNhapDiem();
+            ShowForm(frmGVCTNhapDiem);
+        }
+
+        private void pictureBox12_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng chỉnh sửa điểm đang bảo trì !");
+
+        }
+
+        private void pictureBox11_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng chỉnh sửa điểm đang bảo trì !");
+
+        }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng chỉnh sửa điểm đang bảo trì !");
+
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng chỉnh sửa điểm đang bảo trì !");
+
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng chỉnh sửa điểm đang bảo trì !");
+
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng chỉnh sửa điểm đang bảo trì !");
+
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng chỉnh sửa điểm đang bảo trì !");
+
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng chỉnh sửa điểm đang bảo trì !");
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chức năng chỉnh sửa điểm đang bảo trì !");
+
         }
     }
 }
